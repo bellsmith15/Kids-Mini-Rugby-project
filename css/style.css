@@ -116,3 +116,52 @@ h3 {
     width: 100%;
     overflow: hidden;
 }
+
+/* About Us text */
+
+#welcome {
+    height: 800px;
+}
+
+#about-us {
+    text-align: center;
+    font-size: 900%;
+    height: 200px;
+    font-weight: bold;
+    top: 250px;
+    left: 900px;
+    position: absolute;
+    font: bold;
+    color: whitesmoke;
+    /* color: rgba(224,32,70,255); */
+    /* color:white */
+    background-color: rgba(224, 32, 70, 255);
+    text-align: justify;
+    padding: 0 50px;
+    position: absolute;
+    opacity: 80%;
+}
+
+#about-us-text1 {
+    top: 1750px;
+    left: 450px;
+    font-size: 600%;
+    width: 27%;
+    position: absolute;
+    /* color: rgb(27, 75, 27); */
+    /* color: rgba(224,32,70,255); */
+    color: whitesmoke;
+    font: bold;
+}
+
+#about-us-text2 {
+    top: 1700px;
+    left: 3600px;
+    font-size: 600%;
+    width: 27%;
+    position: absolute;
+    color: rgb(27, 75, 27);
+    /* color: rgba(224,32,70,255); */
+    /* color: whitesmoke; */
+    font: bold;
+}
