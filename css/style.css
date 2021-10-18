@@ -12,4 +12,107 @@ body {
     color: darkslategray
     background-color: #f8f8f8;
 }
- 
+
+/* headings and logo */
+
+/* work out how to put band green at top image is not making this work */
+#heading {
+    background-color: rgb(27, 75, 27);
+    width: 100%;
+    color:whitesmoke;
+}
+
+h1,
+h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: rgba(224, 32, 70, 255);
+    /* color: rgb(243, 132, 4); */
+    /* color:rgb(27, 75, 27); */
+}
+
+h3 {
+    color: white;
+}
+
+#logo {
+    float: left;
+    font-size: 600%;
+    color: rgb(27, 75, 27);
+}
+
+/* navigation links - same as running */
+
+#nav-bar {
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#nav-bar,
+#logo {
+    line-height: 180px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: rgb(27, 75, 27);
+}
+
+#nav-bar a:hover {
+    border-bottom: 5px solid rgba(224, 32, 70, 255);
+}
+
+.active {
+    border-bottom: 5px solid rgba(224, 32, 70, 255);
+}
+
+/* hero image and cover text - same as running and then added link to sign up*/
+
+#hero-image {
+    height: 3500px;
+    width: 100%;
+    position: absolute;
+    /* margin-left: 300px; */
+    background: url('../images/two-boys-rugby.jpg') no-repeat center center;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: white;
+    text-align: center;
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    /* text-align: justify; */
+    height: 110px;
+    padding: 20px 20px 30px;
+    background-color: rgba(224, 32, 70, 255);
+    /* background-color: rgb(177, 23, 49); */
+    /* background-color: rgb(243, 132, .7); */
+    top: 4000px;
+    left: 3400px;
+    position: absolute;
+    opacity: 80%;
+    transform: scale(200%);
+}
+
+#cover-link {
+    color: rgb(27, 75, 27);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#hero-outer {
+    height: 4000px;
+    width: 100%;
+    overflow: hidden;
+}
