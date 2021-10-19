@@ -29,13 +29,34 @@ body {
     padding: 20px 10px;
 }
 
-@media screen and (max-width: 500px) {
+.header a {
+    float: left;
+    color: rgb(27, 75, 27);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 30px;;
+  }
+
+  .logo {
+      float:left;
+  }
+
+@media screen and (max-width: 600px) {
     .header a {
         float:none;
         display:block;
         text-align: left;
     }
-    .header-right {
+    #nav-bar {
         float: none;
     }
 }
@@ -83,9 +104,14 @@ h3 {
     color: rgb(27, 75, 27);
 }
 
-#nav-bar a:hover {
+#nav-bar li a:hover {
     border-bottom: 5px solid rgba(224, 32, 70, 255);
 }
+
+#nav-bar a h1 {
+    color: rgb(27, 75, 27);
+    padding-left: 40px;
+  }
 
 .active {
     border-bottom: 5px solid rgba(224, 32, 70, 255);
@@ -190,6 +216,8 @@ h3 {
 #table {
     margin-right: 20%;
     float:left;
+    padding-left: 400px;
+    padding-top: 75px;
 }
 
 table {

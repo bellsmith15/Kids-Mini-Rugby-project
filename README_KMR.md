@@ -154,7 +154,7 @@ You can break the credits section up into Content and Media, depending on what y
 <!-- - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site -->
 
-- The images and videos used for the web pages gallery were taken from [Pexel](https://www.pexels.com/search/rugby/)
+- The images and videos used for the web pages gallery were taken from [Pexel](https://www.pexels.com/search/rugby/) and [Videvo](https://www.videvo.net/search/rugby/)
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
