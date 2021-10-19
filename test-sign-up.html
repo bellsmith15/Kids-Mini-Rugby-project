@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <header>
         <div id="heading">
             <a href="index.html">
-                <h1 id="logo"> Kids Mini Rugby <i
-                        class="fas fa-football-ball"></i>
+                <h1 id="logo"> Kids Mini Rugby <i class="fas fa-football-ball"></i>
                 </h1>
             </a>
         </div>
@@ -39,8 +40,8 @@
         </div>
     </header>
 
-       <!-- Table Dates Times Age Groups TABLE-->
-       <!-- <section id="groups">
+    <!-- Table Dates Times Age Groups TABLE-->
+    <!-- <section id="groups">
         <div class="groups-style">
             <table id="table">
                 <tr>
@@ -122,12 +123,86 @@
                 <td>11:30-12:30</td>
             </tr>
         </table>
-      </div>
+    </div>
 
 
+    <img src="assets/images/line-out.jpeg" alt="scoring a try" id="signup-image" class="responsive">
+
+
+
+    <section>
+        <div class="background-image">
+            <div class="form-section">
+                <form method="POST" action="action_page.php">
+                    <!-- https://formdump.codeinstitute.net/" WHO DO YOU POST TO??? get 501 error -->
+                    <h2>Get in touch with us to Sign Up! <i class="fas fa-football-ball"></i></h2>
+                    <br>
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="cfname">Childs Full Name</label>
+                        </div>
+                        <div class="form-input">
+                            <input id="cfname" name="child_full_name" type="text" required class="text-input">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="pfname">Parents Full Name</label>
+                        </div>
+                        <div class="form-input">
+                            <input id="pfname" name="parents_full_name" type="text" required class="text-input">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="email">Email Address <i class="fas fa-envelope-open-text"></i></label>
+                        </div>
+                        <div class="form-input">
+                            <input type="email" id="email" name="email_address" required class="text-input">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="info" id="info">Additional Information <i
+                                    class="far fa-question-circle"></i></label>
+                        </div>
+                        <div class="form-input">
+                            <textarea id="info" name="information" required class="text-input"
+                                placeholder="Information we should know about your child...?"></textarea>
+                        </div>
+                    </div>
+
+                    <br>
+                    <label for="U6">Under 6</label>
+                    <input type="radio" id="U6" name="age-group" value="U6" required>
+                    <br>
+                    <label for="U7">Under 7</label>
+                    <input type="radio" id="U7" name="age-group" value="U7" required>
+                    <br>
+                    <label for="U8">Under 8</label>
+                    <input type="radio" id="U8" name="age-group" value="U8" required>
+                    <br>
+                    <label for="U9">Under 9</label>
+                    <input type="radio" id="U9" name="age-group" value="U9" required>
+                    <br>
+                    <label for="U10">Under 10</label>
+                    <input type="radio" id="U10" name="age-group" value="U10" required>
+                    <br>
+                    <label for="U11">Under 11</label>
+                    <input type="radio" id="U11" name="age-group" value="U11" required>
+                    <br>
+                    <input id="join-button" type="submit" value="Register now for Sessions!">
+                </form>
+            </div>
+        </div>
+    </section>
 
 
 
 
 </body>
+
 </html>

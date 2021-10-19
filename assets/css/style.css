@@ -117,6 +117,12 @@ h3 {
     border-bottom: 5px solid rgba(224, 32, 70, 255);
 }
 
+#aboutus-nav {
+
+}
+
+
+
 /* hero image and cover text - same as running and then added link to sign up*/
 
 #hero-image {
@@ -538,6 +544,15 @@ color: whitesmoke;
 #signup-image {
     background-image: url('../images/try.jpeg') no-repeat center center;
     width: 100%;
+}
+
+
+.background-image {
+    background-image: url('../images/line-out.jpeg') no-repeat center center;
+    /* min-height: 400px; */
+    height: 1000%;
+    background-size:cover;
+    position:relative;
 }
 
 
