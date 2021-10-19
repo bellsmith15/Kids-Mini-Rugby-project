@@ -13,29 +13,31 @@
 
 <body>
     <header>
-        <div id="heading">
-            <a href="index.html">
-                <h1 id="logo">Kids Mini Rugby <i class="fas fa-football-ball"></i>
-                </h1>
-            </a>
-        </div>
-        <div id="nav-bar">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="signup.html" class="active">Sign Up</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#aboutus-nav">About us</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="header">
+            <div>
+                <a href="index.html">
+                    <h1 id="logo">Kids Mini Rugby <i class="fas fa-football-ball"></i>
+                    </h1>
+                </a>
+            </div>
+            <div id="nav-bar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="signup.html" class="active">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#aboutus-nav">About us</a>
+                        </li>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -49,7 +51,7 @@
     <section>
         <div class="form-section">
             <form method="POST" action="action_page.php">
-                <!-- https://formdump.codeinstitute.net/"  -->
+                <!-- https://formdump.codeinstitute.net/" WHO DO YOU POST TO??? get 501 error -->
                 <h2>Get in touch with us to Sign Up! <i class="fas fa-football-ball"></i></h2>
                 <br>
                 <div class="form-row">
@@ -109,7 +111,7 @@
                 <label for="U11">Under 11</label>
                 <input type="radio" id="U11" name="age-group" value="U11" required>
                 <br>
-                <input class="join-button" type="submit" value="Register now for Sessions!">
+                <input id="join-button" type="submit" value="Register now for Sessions!">
             </form>
         </div>
     </section>
