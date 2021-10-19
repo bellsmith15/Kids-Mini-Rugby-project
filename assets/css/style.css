@@ -441,9 +441,10 @@ footer{
     /*widths of images all set to 100%*/
 }
 
-#girls-image {
-    scale:calc( 50%)
-}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
 
 /* Form */
 
@@ -525,11 +526,11 @@ input[type=radio] {
 
 #signup-image {
     background-image: url('../images/try.jpeg') no-repeat center center;
-    height: 75%;
     width: 100%;
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden; */
 }
 
 
