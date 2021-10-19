@@ -14,10 +14,10 @@
 <body>
     <header>
         <div id="heading">
-        <a href="index.html">
-            <h1 id="logo">Kids Mini Rugby <i class="fas fa-football-ball"></i>
-            </h1>
-        </a>
+            <a href="index.html">
+                <h1 id="logo">Kids Mini Rugby <i class="fas fa-football-ball"></i>
+                </h1>
+            </a>
         </div>
         <div id="nav-bar">
             <nav>
@@ -39,26 +39,13 @@
         </div>
     </header>
 
-    <!-- Tag Line -->
-    <!-- <section id="signup-outer">
-        <div id="signup-image"></div>
-    </section> -->
-
-
-<!-- sign up image -->
-
+    <!-- sign up image -->
     <section>
         <!-- <img src="assets/images/try.jpeg" alt="scoring a try" id="signup-image"> -->
-        <img src="assets/images/line-out.jpeg" alt="scoring a try" id="signup-image">
+        <img src="assets/images/line-out.jpeg" alt="scoring a try" id="signup-image" class="responsive">
     </section>
 
-    <!-- <section>
-        <img src="assets/images/girls-rugby.jpeg" alt="girls rugby" id="girls-image">
-    </section> -->
-         
-
-    <!-- Sign Up Form -->
-
+    <!-- sign Up Form -->
     <section class="form-section">
         <form method="POST" action="*" https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Get in touch with us to Sign Up! <i class="fas fa-football-ball"></i></h2>
@@ -69,9 +56,9 @@
             <input id="pfname" name="parents_full_name" type="text" required class="text-input">
             <label for="email">Email Address <i class="fas fa-envelope-open-text"></i></label>
             <input type="email" id="email" name="email_address" required class="text-input">
-            <label for="info" id="info">Additional Information <i class="fas fa-info"></i> <i
-                    class="far fa-question-circle"></i></label>
-            <input type="info" id="info" name="information" required class="text-input">
+            <label for="info" id="info">Additional Information <i class="far fa-question-circle"></i></label>
+            <textarea id="info" name="information" required class="text-input"
+                placeholder="Information we should know about your child...?"></textarea>
             <br>
             <label for="U6">Under 6</label>
             <input type="radio" id="U6" name="age-group" value="U6" required>
@@ -88,14 +75,14 @@
             <label for="U10">Under 10</label>
             <input type="radio" id="U10" name="age-group" value="U10" required>
             <br>
+            <br>
             <input class="join-button" type="submit" value="Register now for Sessions!">
         </form>
     </section>
 
-
     <!-- Table Dates Times Age Groups TABLE-->
-    <section id="groups">
-        <div class="groups-style">
+    <section>
+        <div style="overflow-x:auto;">
             <table id="table">
                 <tr>
                     <th>Group Ages</th>
@@ -135,17 +122,19 @@
             </table>
         </div>
     </section>
-
     <br>
+
     <!-- Map -->
-    <iframe id="g-map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.0645316395758!2d-0.5928911340165852!3d51.19946257958579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875d0475d3fd365%3A0xa29bc5a7b0b55310!2sGuildford%20Rugby%20Club%20Ground%2C%20Godalming!5e0!3m2!1sen!2suk!4v1634224005779!5m2!1sen!2suk"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <section>
+        <iframe id="g-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.0645316395758!2d-0.5928911340165852!3d51.19946257958579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875d0475d3fd365%3A0xa29bc5a7b0b55310!2sGuildford%20Rugby%20Club%20Ground%2C%20Godalming!5e0!3m2!1sen!2suk!4v1634224005779!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="responsive"></iframe>
+    </section>
     <br>
 
     <!-- Sessions List -->
     <section id="session-list">
-        <h1 id="What-we-offer">Mini tag rugby:</h1>
+        <h1 id="what-we-offer">Mini tag rugby:</h1>
         <br>
         <div class="list-unders">
             <ol>
@@ -181,9 +170,8 @@
                     <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
                 </li>
             </ul>
-            <p>Guildford Park, Surrey, UK.    01483 332763</p>
-            <p a href="signup.html" id="map-link"> Directions <i
-                class="fas fa-map-marker-alt"></i></p>
+            <p>Guildford Park, Surrey, UK. 01483 332763</p>
+            <p a href="signup.html" id="map-link"> Directions <i class="fas fa-map-marker-alt"></i></p>
             <!-- <div id="footer-map-directions" a href="signup.html" id="map-link"> Directions <i
                     class="fas fa-map-marker-alt"></i></div> -->
         </div>

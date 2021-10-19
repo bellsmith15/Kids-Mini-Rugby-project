@@ -173,29 +173,14 @@ h3 {
 
 /* Table of Dates and Times - from code institute*/
 
-
-#groups {
-    width:40%;
-    float: left;
-    padding: 5%;
-}
-
-.groups-style {
-    margin: 0 auto 0 auto;
-    margin-left: 20px;
-    font-size: 50%;
-    position: absolute;
-    background-color: rgb(27, 75, 27);
-    color: whitesmoke;
-}
-
 #table {
     margin-right: 20%;
+    float:left;
 }
 
 table {
-    width: 100%;
-    height: 100%;
+    max-width: 15%;
+    max-height: 100%;
 }
 
 tr {
@@ -207,33 +192,33 @@ tr,
 th,
 td {
     text-align: center;
+    color: whitesmoke;
 }
 
 th {
     font: bolder;
+    height: 40px;
 }
 
 th,
 td {
     border: 1px solid rgba(224, 32, 70, 255);
     padding: 5px;
-}
-
-
-/* #groups {
-    height: 1600%;
-    width: 40%;
-}
-
-.groups-style {
-    margin: 0 auto 0 auto;
-    font-size: 500%;
-    top: 3800px;
-    left: 1050px;
-    position: absolute;
     background-color: rgb(27, 75, 27);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ - from W3*/
     color: whitesmoke;
-} */
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 - from W3 */
+    color: whitesmoke;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge - from W3 */
+    color: whitesmoke;
+  }
 
 
 /* List of Training in Sessions */
@@ -243,10 +228,10 @@ td {
     font-size: 200%;
 }
 
-#What-we-offer {
+#what-we-offer {
     margin-left: 10%;
     padding-top: 80px;
-    width: 40%;
+    width: 55%;
     float: left;
     text-align: center;
 }
