@@ -147,7 +147,7 @@ h3 {
     opacity: 80%;
 }
 
-#about-us-text1 {
+#about-us-confidence {
     top: 1750px;
     left: 450px;
     font-size: 600%;
@@ -159,7 +159,7 @@ h3 {
     font: bold;
 }
 
-#about-us-text2 {
+#about-us-values {
     top: 1700px;
     left: 3600px;
     font-size: 600%;
@@ -279,6 +279,35 @@ td {
 #Who-are-we {
     height: 800px;
     padding-top: 50px;
+    width: 33%;
+    float: left;
+    margin-left: 100px;
+    font-size: 380%;
+}
+
+#What-do-we-do {
+    height: 800px;
+    padding-top: 75px;
+    width: 33%;
+    float: left;
+    margin-left: 100px;
+    font-size: 380%;
+}
+
+#Coaching {
+    height: 800px;
+    padding-top: 125px;
+    width: 33%;
+    float: left;
+    margin-left: 100px;
+    font-size: 380%;
+}
+
+/* About Us */
+/* copy as amending */
+/* #Who-are-we {
+    height: 800px;
+    padding-top: 50px;
     width: 90%;
     float: left;
     margin-left: 100px;
@@ -301,7 +330,7 @@ td {
     float: left;
     margin-left: 100px;
     font-size: 280%;
-}
+} */
 
 /* Footer and Social Media - Socials from Love Running FontAwesome Code to run them */
 
@@ -491,6 +520,33 @@ footer{
 input[type=radio] {
     transform: scale(400%)
 }
+
+/* sign up image */
+
+#signup-image {
+    background-image: url('../images/try.jpeg') no-repeat center center;
+    height: 75%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* #signup-image {
+    height: 100%;
+    width: 100%; */
+    /* position: absolute; */
+    /* margin-left: 300px; */
+    /* background: url('../images/try.jpeg') no-repeat center center; */
+    /* background: url('../images/defence.jpeg') no-repeat center center; */
+}
+/* 
+#signup-outer {
+    height: 4000px;
+    width: 100%;
+    overflow: hidden;
+} */
 
 /* Media queries for responsiveness */
 /* For tablets screen size 1200 and below */
