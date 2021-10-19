@@ -45,39 +45,73 @@
         <img src="assets/images/line-out.jpeg" alt="scoring a try" id="signup-image" class="responsive">
     </section>
 
-    <!-- sign Up Form -->
-    <section class="form-section">
-        <form method="POST" action="*" https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Get in touch with us to Sign Up! <i class="fas fa-football-ball"></i></h2>
-            <br>
-            <label for="cfname">Childs Full Name</label>
-            <input id="cfname" name="child_full_name" type="text" required class="text-input">
-            <label for="pfname">Parents Full Name</label>
-            <input id="pfname" name="parents_full_name" type="text" required class="text-input">
-            <label for="email">Email Address <i class="fas fa-envelope-open-text"></i></label>
-            <input type="email" id="email" name="email_address" required class="text-input">
-            <label for="info" id="info">Additional Information <i class="far fa-question-circle"></i></label>
-            <textarea id="info" name="information" required class="text-input"
-                placeholder="Information we should know about your child...?"></textarea>
-            <br>
-            <label for="U6">Under 6</label>
-            <input type="radio" id="U6" name="age-group" value="U6" required>
-            <br>
-            <label for="U7">Under 7</label>
-            <input type="radio" id="U7" name="age-group" value="U7" required>
-            <br>
-            <label for="U8">Under 8</label>
-            <input type="radio" id="U8" name="age-group" value="U8" required>
-            <br>
-            <label for="U9">Under 9</label>
-            <input type="radio" id="U9" name="age-group" value="U9" required>
-            <br>
-            <label for="U10">Under 10</label>
-            <input type="radio" id="U10" name="age-group" value="U10" required>
-            <br>
-            <br>
-            <input class="join-button" type="submit" value="Register now for Sessions!">
-        </form>
+    <!-- sign up form -->
+    <section>
+        <div class="form-section">
+            <form method="POST" action="action_page.php">
+                <!-- https://formdump.codeinstitute.net/"  -->
+                <h2>Get in touch with us to Sign Up! <i class="fas fa-football-ball"></i></h2>
+                <br>
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="cfname">Childs Full Name</label>
+                    </div>
+                    <div class="form-input">
+                        <input id="cfname" name="child_full_name" type="text" required class="text-input">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="pfname">Parents Full Name</label>
+                    </div>
+                    <div class="form-input">
+                        <input id="pfname" name="parents_full_name" type="text" required class="text-input">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="email">Email Address <i class="fas fa-envelope-open-text"></i></label>
+                    </div>
+                    <div class="form-input">
+                        <input type="email" id="email" name="email_address" required class="text-input">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="info" id="info">Additional Information <i
+                                class="far fa-question-circle"></i></label>
+                    </div>
+                    <div class="form-input">
+                        <textarea id="info" name="information" required class="text-input"
+                            placeholder="Information we should know about your child...?"></textarea>
+                    </div>
+                </div>
+
+                <br>
+                <label for="U6">Under 6</label>
+                <input type="radio" id="U6" name="age-group" value="U6" required>
+                <br>
+                <label for="U7">Under 7</label>
+                <input type="radio" id="U7" name="age-group" value="U7" required>
+                <br>
+                <label for="U8">Under 8</label>
+                <input type="radio" id="U8" name="age-group" value="U8" required>
+                <br>
+                <label for="U9">Under 9</label>
+                <input type="radio" id="U9" name="age-group" value="U9" required>
+                <br>
+                <label for="U10">Under 10</label>
+                <input type="radio" id="U10" name="age-group" value="U10" required>
+                <br>
+                <label for="U11">Under 11</label>
+                <input type="radio" id="U11" name="age-group" value="U11" required>
+                <br>
+                <input class="join-button" type="submit" value="Register now for Sessions!">
+            </form>
+        </div>
     </section>
 
     <!-- Table Dates Times Age Groups TABLE-->
