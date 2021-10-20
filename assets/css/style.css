@@ -478,10 +478,16 @@ label {
 }
 
 .form-section {
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: rgba(12, 58, 31, 0.411);
     padding: 20px;
     margin-top: 30px;
+
+    display:flex;
+    width: max-content;
+    margin-right: 55%;
+    z-index: 2;
+
     /* text-align: center; might be nice visually */
 }
 
