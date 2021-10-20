@@ -12,9 +12,9 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    font:xx-large;
+    /* font:xx-large;
     font-weight: 300;
-    color: darkslategray;
+    color: darkslategray; */
     background-color: #f8f8f8;
 }
 
@@ -155,6 +155,7 @@ h3 {
     opacity: 80%;
     /* transform: scale(200%); */
     scale:calc(200%)
+    /* 	Property scale doesn't exist : calc(200%) W3C error */ 
 }
 
 #cover-link {
@@ -221,14 +222,15 @@ h3 {
 /* Table of Dates and Times - from code institute*/
 
 #table {
-    margin-right: 20%;
+    /* margin-right: 20%; */
     float:left;
-    padding-left: 400px;
+    padding-left: 40%;
     padding-top: 75px;
+    padding-bottom: 100px;
 }
 
 table {
-    max-width: 15%;
+    max-width: 50%;
     max-height: 100%;
 }
 
@@ -260,12 +262,13 @@ td {
 /* List of Training in Sessions */
 
 #session-list {
-    height: 500px;
+    height: 70vh;
+    margin-bottom: 50px;
     font-size: 200%;
 }
 
 #what-we-offer {
-    margin-left: 10%;
+    /* margin-left: 10%; */
     padding-top: 80px;
     width: 55%;
     float: left;
@@ -274,25 +277,30 @@ td {
 
 .list-offer ul,
 .list-unders ol {
-    text-align: left;
-    text-indent: 40px;
-    position: relative;
-    float: left;
+    /* text-align: left; */
+    /* text-indent: 40px; */
+    /* position: relative;
+    float: left; */
     display: block;
     left: 40%;
     height: 100%;
     padding-bottom: 100px;
+    padding-left: 5%;
 }
 
 .list-offer ul li,
 .list-unders ol li {
     position: relative;
-    float: left;
+    /* float: left; removed debu over page*/
     display: block;
     width: 99%;
-    height: 100%;
-    font-size: 50px;
+    /* height: 100%; */
+    font-size: 35px;
     margin-bottom: 5px;
+}
+
+#tag-heading {
+    padding-left: 5%;
 }
 
 /* About Us */
@@ -395,7 +403,8 @@ footer{
     float: right;
     width: 40%;
     padding-right: 5%;
-    height:fit-content;
+    height:300px;
+    /* height:fit-content; */
 }
 
 
@@ -497,6 +506,7 @@ color: whitesmoke;
     clear: both;
 }
 
+
 /* FIX line 503 the width 100% has parse error & 504 */
 
 @media screen and (max-width:600px) {
@@ -553,12 +563,29 @@ color: whitesmoke;
 
 
 .background-image {
-    background-image: url('../images/line-out.jpeg') no-repeat center center;
-    /* min-height: 400px; */
-    height: 1000%;
+    background-image: url('../images/line-out.jpeg') no-repeat center;
+    min-height: 400px;
+    /* height: 1000%; */
     background-size:cover;
     position:relative;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-form select {
+	  width: 100%;
+	}
+}
+
+
+
+
+
 
 
 /* Media queries for responsiveness */
