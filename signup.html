@@ -39,9 +39,6 @@
                     <li>
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="test-sign-up.html" class="active">Test sign up</a>
-                    </li>
                 </ul>
             </nav>
         </div>
@@ -52,8 +49,6 @@
         <h1>Image overlay</h1>
         <div class="color-overlay"></div>
     </div> -->
-
-
 
     <div class="container">
         <div class="form-section">
@@ -124,6 +119,74 @@
         <div class="color-overlay"></div>
     </div>
 
+    
+        <div class="form-section">
+            <form method="POST" action="action_page.php">
+                <!-- https://formdump.codeinstitute.net/" WHO DO YOU POST TO??? get 501 error -->
+                <h2>Get in touch with us to Sign Up! <i class="fas fa-football-ball"></i></h2>
+                <br>
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="cfname">Childs Full Name</label>
+                    </div>
+                    <div class="form-input">
+                        <input id="cfname" name="child_full_name" type="text" required class="text-input">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="pfname">Parents Full Name</label>
+                    </div>
+                    <div class="form-input">
+                        <input id="pfname" name="parents_full_name" type="text" required class="text-input">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="email">Email Address <i class="fas fa-envelope-open-text"></i></label>
+                    </div>
+                    <div class="form-input">
+                        <input type="email" id="email" name="email_address" required class="text-input">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-label">
+                        <label for="info" id="info">Additional Information <i
+                                class="far fa-question-circle"></i></label>
+                    </div>
+                    <div class="form-input">
+                        <textarea id="info" name="information" required class="text-input"
+                            placeholder="Information we should know about your child...?"></textarea>
+                    </div>
+                </div>
+
+                <br>
+                <label for="U6">Under 6</label>
+                <input type="radio" id="U6" name="age-group" value="U6" required>
+                <br>
+                <label for="U7">Under 7</label>
+                <input type="radio" id="U7" name="age-group" value="U7" required>
+                <br>
+                <label for="U8">Under 8</label>
+                <input type="radio" id="U8" name="age-group" value="U8" required>
+                <br>
+                <label for="U9">Under 9</label>
+                <input type="radio" id="U9" name="age-group" value="U9" required>
+                <br>
+                <label for="U10">Under 10</label>
+                <input type="radio" id="U10" name="age-group" value="U10" required>
+                <br>
+                <label for="U11">Under 11</label>
+                <input type="radio" id="U11" name="age-group" value="U11" required>
+                <br>
+                <input id="join-button" type="submit" value="Register now for Sessions!">
+            </form>
+        </div>
+
+
     <!-- Table Dates Times Age Groups TABLE-->
     <section class="tablegrid" class="responsive">
         <div style="overflow-x:auto;">
@@ -177,10 +240,9 @@
 
     <!-- Sessions List   id="what-we-offer"  id="session-list"-->
     <section>
-        <h1 id="tag-heading" class="responsive">Mini tag rugby:</h1>
-        <br>
         <div class="list-unders" class="responsive">
             <ol>
+                <h1 id="tag-heading" class="responsive">Mini tag rugby:</h1>
                 <li>U6 - Multi-tasking games to learn new skills and build confidence</li>
                 <li>U7 - Rugby drills and fun games, learning co-ordination for tag rugby</li>
                 <li>U8 - Tag rugby with 5 to 6 players on each team</li>
@@ -232,7 +294,7 @@
         <img src="assets/images/line-out.jpeg" alt="scoring a try" id="signup-image" class="responsive">
     </section> -->
 
-<!-- https://formdump.codeinstitute.net/" WHO DO YOU POST TO??? get 501 error -->
+    <!-- https://formdump.codeinstitute.net/" WHO DO YOU POST TO??? get 501 error -->
     <!-- sign up form -->
     <!-- <section class=theform>
         <div class="form-section">
