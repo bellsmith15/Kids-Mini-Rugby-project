@@ -164,7 +164,6 @@ h3 {
     position: relative;
     width: 100%;
     /* this is relative for the floating sign up box */
-    
 }
 
 /* club ethos */
@@ -188,10 +187,6 @@ h3 {
 
 .list-offer ul,
 .list-unders ol {
-    /* text-align: left; */
-    /* text-indent: 40px; */
-    /* position: relative;
-    float: left; */
     display: block;
     left: 40%;
     height: 100%;
@@ -202,10 +197,8 @@ h3 {
 .list-offer ul li,
 .list-unders ol li {
     position: relative;
-    /* float: left; removed debu over page*/
     display: block;
     width: 99%;
-    /* height: 100%; */
     font-size: 35px;
     margin-bottom: 5px;
 }
@@ -213,7 +206,7 @@ h3 {
 /* About Us text */
 
 #welcome {
-    height: 846px;
+    height: 200px;
 }
 
 #about-us {
@@ -232,26 +225,6 @@ h3 {
     position: absolute;
     opacity: 80%;
 }
-
-/* #about-confidence {
-    top: 53vh;
-    left: 450px;
-    font-size: 600vh;
-    width: 27%;
-    position: absolute;
-    color: whitesmoke;
-    font: bold;
-}
-
-#about-values {
-    top: 55vh;
-    left: 3600px;
-    font-size: 600vh;
-    width: 27%;
-    position: absolute;
-    color: rgb(27, 75, 27);
-    font: bold;
-} */
 
 #about-confidence {
     top: 53vh;
@@ -275,6 +248,58 @@ h3 {
     /* color: rgba(224,32,70,255); */
     /* color: whitesmoke; */
     font: bold;
+}
+
+/* img-videos */
+
+#img-videos {
+    height: 846px;
+}
+
+#left-who {
+    padding-top: 40px;
+    width: 33%;
+    float: left;
+    background-color: red
+}
+
+#right-what {
+    padding-top: 40px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue
+}
+
+#right-coach {
+    padding-top: 40px;
+    width: 33%;
+    float: right;
+    background-color: green
+}
+
+#videos-images >img {
+    width: 33%;
+    height: 100%;
+    clear:both;
+}
+
+.about-image {
+    width: 33%;
+    height:100%;
+    /* display:flex; */
+    display:inline-flex;
+
+}
+
+#ideos-images {
+    clear: both;
+    /*photo section appears below the header*/
+    line-height: 3;
+    /*removes the gaps between any images*/
+    column-count: 4;
+    /*secret source 4 columns for desktops 3 for tablets 2 for mobile if less than 4 pics available then choose 2*/
+    column-gap: 10;
+    /*removes a vertical gap*/
 }
 
 
