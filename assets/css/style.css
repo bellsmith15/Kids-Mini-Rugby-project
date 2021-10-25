@@ -126,9 +126,13 @@ h3 {
     background: url('../images/two-boys-rugby.jpg') no-repeat center center;
     background-size:cover;
     height: 100vh;
-    /* height: 600px; */
     width: 100%;
     clear: both;
+    min-height: calc(100vh -201px);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
 }
 
 #signup-text,
@@ -169,20 +173,26 @@ h3 {
 /* club ethos */
 #club-ethos {
     height: 846px;
+    /* height: 200px; */
+    margin: 25vw;
+    /* background-color:rgba(224, 32, 70, 255); */
+    background-color:rgb(27, 75, 27);
+    color: whitesmoke;
+    padding: 20px 20px;
 }
 
 #left {
     padding-top: 40px;
     width: 100%;
     float: left;
-    background-color: red
+    /* background-color: red */
 }
 
 #right {
     padding-top: 40px;
     width: 100%;
     float: right;
-    background-color: blue
+    /* background-color: blue */
 }
 
 .list-offer ul,
@@ -250,11 +260,13 @@ h3 {
     font: bold;
 }
 
-/* img-videos */
 
-#img-videos {
+#img-photos {
     height: 846px;
 }
+
+
+/* descriptions */
 
 #left-who {
     padding-top: 40px;
@@ -277,17 +289,45 @@ h3 {
     background-color: green
 }
 
-#videos-images >img {
-    width: 33%;
-    height: 100%;
-    clear:both;
+/* Video */
+/* Stack overflow rounded corners on video */
+video {
+    display:block;
+    margin: 10px auto;
+    border-radius: 40px;
+    -webkit-border-image: 40px;
+    overflow: hidden;
+    /* ? clear:both; ? */
 }
+
+/* Stack overflow rounded corners on video */
+/* #video-image {
+    margin: 10px auto;
+    display:block;
+    width: 100%;
+    float:left;
+    border-radius: 40px; */
+
+    /* -webkit-border-image: 40px;
+    overflow: hidden; */
+
+    /* margin: 10px auto;
+    clear:both;
+} */
+
+
+
+
+
+
+
 
 .about-image {
     width: 33%;
     height:100%;
     /* display:flex; */
     display:inline-flex;
+    
 
 }
 
