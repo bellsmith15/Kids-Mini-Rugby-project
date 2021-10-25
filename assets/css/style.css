@@ -118,7 +118,16 @@ h3 {
     border-bottom: 5px solid rgba(224, 32, 70, 255);
 }
 
-#aboutus-nav {}
+#aboutus-nav {
+    margin: 50px;
+    /* text-decoration: none; */
+    /* border-bottom: 5px solid rgba(224, 32, 70, 255); */
+}
+
+
+#aboutus-nav a:hover {
+    border-bottom: 5px solid rgba(224, 32, 70, 255);
+}
 
 /* code CSS for the about us in page link to the top nav bar */
 
@@ -167,6 +176,8 @@ h3 {
 .offer-container {
     position: relative;
     width: 100%;
+    text-align: center;
+    padding: 50px;
     /* this is relative for the floating sign up box */
 }
 
@@ -174,7 +185,7 @@ h3 {
 #club-ethos {
     height: 846px;
     /* height: 200px; */
-    margin: 25vw;
+    /* margin: 25vw; */
     /* background-color:rgba(224, 32, 70, 255); */
     background-color:rgb(27, 75, 27);
     color: whitesmoke;
@@ -261,33 +272,51 @@ h3 {
 }
 
 
-#img-photos {
-    height: 846px;
-}
-
-
 /* descriptions */
 
 #left-who {
-    padding-top: 40px;
+    padding: 40px;
     width: 33%;
+    height: 37vh;
     float: left;
-    background-color: red
+    /* background-color: red */
+    background-color: rgb(27, 75, 27);
 }
 
 #right-what {
-    padding-top: 40px;
+    padding: 40px;
     width: 33%;
+    height: 37vh;
     margin: 0 auto;
-    background-color: blue
+    /* background-color: blue */
+    background-color: rgb(27, 75, 27);
 }
 
 #right-coach {
-    padding-top: 40px;
+    padding: 40px;
     width: 33%;
+    height: 37vh;
     float: right;
-    background-color: green
+    /* background-color: green */
+    background-color: rgb(27, 75, 27);
+
 }
+
+#descriptions p {
+    color:whitesmoke;
+    text-align:justify;
+}
+
+.img-container {
+    font-size: 2vh;
+    padding: 40px;
+}
+
+
+.img-container h1{
+    padding: 40px;
+}
+
 
 /* Video */
 /* Stack overflow rounded corners on video */
@@ -300,20 +329,6 @@ video {
     /* ? clear:both; ? */
 }
 
-/* Stack overflow rounded corners on video */
-/* #video-image {
-    margin: 10px auto;
-    display:block;
-    width: 100%;
-    float:left;
-    border-radius: 40px; */
-
-    /* -webkit-border-image: 40px;
-    overflow: hidden; */
-
-    /* margin: 10px auto;
-    clear:both;
-} */
 
 
 
@@ -327,8 +342,14 @@ video {
     height:100%;
     /* display:flex; */
     display:inline-flex;
-    
+}
 
+#lower-images >img {
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    margin:15px;
+    overflow:hidden;
 }
 
 #ideos-images {
@@ -598,7 +619,7 @@ footer {
     /* height: 150px;   /* taken out as gallery is ok*/
     background-color: rgb(27, 75, 27);
     color: whitesmoke;
-    font-size: x-large;
+    font-size: 2vh;
 }
 
 .footer-style {
