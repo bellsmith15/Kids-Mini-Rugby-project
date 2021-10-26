@@ -97,7 +97,7 @@ h3 {
 }
 
 #nav-bar, #logo {
-    line-height: 180px;
+    line-height: 210px;
 }
 
 #nav-bar a {
@@ -183,7 +183,7 @@ h3 {
 
 /* club ethos */
 #club-ethos {
-    height: 846px;
+    /* height: 846px; */
     /* height: 200px; */
     /* margin: 25vw; */
     /* background-color:rgba(224, 32, 70, 255); */
@@ -281,6 +281,7 @@ h3 {
     float: left;
     /* background-color: red */
     background-color: rgb(27, 75, 27);
+    border-radius: 10px;
 }
 
 #right-what {
@@ -290,6 +291,7 @@ h3 {
     margin: 0 auto;
     /* background-color: blue */
     background-color: rgb(27, 75, 27);
+    border-radius: 10px;
 }
 
 #right-coach {
@@ -299,7 +301,7 @@ h3 {
     float: right;
     /* background-color: green */
     background-color: rgb(27, 75, 27);
-
+    border-radius: 10px;
 }
 
 #descriptions p {
@@ -308,13 +310,18 @@ h3 {
 }
 
 .img-container {
-    font-size: 2vh;
+    /* font-size: 2vh; */
+    font-size: 40px;
     padding: 40px;
 }
 
 
 .img-container h1{
     padding: 40px;
+}
+
+.border-style {
+    border-radius: 100px;
 }
 
 
@@ -637,6 +644,8 @@ footer {
 .footer-style a {
     color: whitesmoke;
     word-spacing: 5px;
+
+    text-decoration: none;
 }
 
 .footer-style a :hover {
