@@ -709,8 +709,31 @@ footer {
     height: auto;
 }
 
+/* Media Queries */
+
+/* Larger / Medium screen sizes 1200px and down (medium screens)*/
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
+/* Larger / Medium screen sizes 1200px and down (medium screens)*/
+/* @media screen and (max-width: 1200px) {
+   #video-image {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+} */
+
+
+
 /* Small screen sizes 600px and down (mobiles)*/
-@media screen and (max-width: 600px; ) {
+@media screen and (max-width: 600px) {
     #photos {
         column-count: 2;
     }
