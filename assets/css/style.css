@@ -336,7 +336,22 @@ video {
     /* ? clear:both; ? */
 }
 
+/* Video Media */
 
+@media screen and (max-width: 1000px) {
+    video {
+        width:1000px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    video {
+        width: 320px;
+        height: 180px;
+    }
+    
+}
 
 
 
@@ -729,7 +744,6 @@ footer {
         margin: 0 auto;
     }
 } */
-
 
 
 /* Small screen sizes 600px and down (mobiles)*/
