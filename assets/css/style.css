@@ -357,7 +357,8 @@ video {
     /*removes the gaps between any images*/
     column-count: 4;
     /*secret source 4 columns for desktops 3 for tablets 2 for mobile if less than 4 pics available then choose 2*/
-    column-gap: 10;
+    column-gap: 10px;
+    /* column-gap: 10; */
     /*removes a vertical gap*/
 }
 
@@ -683,7 +684,7 @@ footer {
     /*removes the gaps between any images*/
     column-count: 4;
     /*secret source 4 columns for desktops 3 for tablets 2 for mobile if less than 4 pics available then choose 2*/
-    column-gap: 10;
+    column-gap: 10px;
     /*removes a vertical gap*/
 }
 
@@ -923,7 +924,7 @@ footer {
 /* Video Media */
 @media screen and (max-width: 1000px) {
     video {
-        width: 850pxpx;
+        width: 850px;
         height: 1000px;
     }
 }
@@ -1100,13 +1101,13 @@ label {
 /* :-ms is error in CSS validator take it out+ */
 /* :-ms-input-placeholder { */
 /* Internet Explorer 10-11  :-ms-input-placeholder is a vendor extended pseudo-class */
-color: whitesmoke;
-}
+/* color: whitesmoke;
+} */
 
 /* ::-ms-input-placeholder { */
 /* Microsoft Edge  ::-ms-input-placeholder is a vendor extended pseudo-element */
-color: whitesmoke;
-}
+/* color: whitesmoke;
+} */
 
 #join-button {
     margin-top: 20px;
