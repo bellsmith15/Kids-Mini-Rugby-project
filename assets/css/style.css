@@ -56,6 +56,9 @@ h2 {
     font-family: Exo2, sans-serif;
     text-transform: uppercase;
     color: rgba(224, 32, 70, 255);
+
+    /* color: rgba(224, 32, 70,); have to drop the 255 as CSS validator says its out of range*/
+
     /* color: rgb(243, 132, 4); */
     /* color:rgb(27, 75, 27); */
 }
@@ -127,6 +130,7 @@ h3 {
     height: 100vh;
     width: 100%;
     clear: both;
+    /* this is error on CCSS validator -201px review and take out */
     min-height: calc(100vh -201px);
     display: flex;
     align-items: center;
@@ -321,7 +325,7 @@ video {
     display: block;
     margin: 10px auto;
     border-radius: 40px;
-    -webkit-border-image: 40px;
+    /* -webkit-border-image: 40px; */
     overflow: hidden;
 }
 
@@ -961,12 +965,13 @@ label {
     /* Firefox */
 }
 
-:-ms-input-placeholder {
+/* :-ms is error in CSS validator take it out+ */
+/* :-ms-input-placeholder { */
     /* Internet Explorer 10-11  :-ms-input-placeholder is a vendor extended pseudo-class */
     color: whitesmoke;
 }
 
-::-ms-input-placeholder {
+/* ::-ms-input-placeholder { */
     /* Microsoft Edge  ::-ms-input-placeholder is a vendor extended pseudo-element */
     color: whitesmoke;
 }
