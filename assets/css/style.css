@@ -56,6 +56,7 @@ h2 {
     font-family: Exo2, sans-serif;
     text-transform: uppercase;
     color: rgba(224, 32, 70, 255);
+    padding-bottom: 15px;
 
     /* color: rgba(224, 32, 70,); have to drop the 255 as CSS validator says its out of range*/
 
@@ -222,9 +223,11 @@ h3 {
 
 #welcome {
     height: 200px;
+    width: 100%;
 }
 
-#about-us {
+/* on line 431 */
+/* #about-us {
     text-align: center;
     font-size: 900%;
     height: 200px;
@@ -239,7 +242,7 @@ h3 {
     padding: 0 50px;
     position: absolute;
     opacity: 80%;
-}
+} */
 
 #about-confidence {
     top: 60vh;
@@ -254,14 +257,14 @@ h3 {
 }
 
 #about-values {
-    top: 52vh;
-    right: 60px;
+    top: 40vh;
+    right: 10px;
     font-size: 25px;
     width: 27%;
     position: absolute;
-    color: rgb(27, 75, 27);
+    /* color: rgb(27, 75, 27); */
     /* color: rgba(224,32,70,255); */
-    /* color: whitesmoke; */
+    color: whitesmoke;
     font: bold;
 }
 
@@ -271,7 +274,7 @@ h3 {
 #left-who {
     padding: 40px;
     width: 33%;
-    height: 37vh;
+    height: 60vh;
     float: left;
     /* background-color: red */
     background-color: rgb(27, 75, 27);
@@ -281,7 +284,7 @@ h3 {
 #right-what {
     padding: 40px;
     width: 33%;
-    height: 37vh;
+    height: 60vh;
     margin: 0 auto;
     /* background-color: blue */
     background-color: rgb(27, 75, 27);
@@ -291,7 +294,7 @@ h3 {
 #right-coach {
     padding: 40px;
     width: 33%;
-    height: 37vh;
+    height: 60vh;
     float: right;
     /* background-color: green */
     background-color: rgb(27, 75, 27);
@@ -305,8 +308,9 @@ h3 {
 
 .img-container {
     /* font-size: 2vh; */
-    font-size: 40px;
+    /* font-size: 40px; */
     padding: 40px;
+    line-height: 25px;
 }
 
 
@@ -325,7 +329,6 @@ video {
     display: block;
     margin: 10px auto;
     border-radius: 40px;
-    /* -webkit-border-image: 40px; */
     overflow: hidden;
 }
 
@@ -336,6 +339,7 @@ video {
     height: 100%;
     /* display:flex; */
     display: inline-flex;
+    padding: 5vh;
 }
 
 #lower-images>img {
@@ -430,19 +434,12 @@ video {
 
 #about-us {
     text-align: center;
-    font-size: 900%;
-    height: 200px;
-    font-weight: bold;
-    top: 250px;
-    left: 900px;
-    position: absolute;
-    font: bold;
+    font-size: 35px;
+    width: 100%;
+    top: 105px;
     color: whitesmoke;
-    /* color: rgba(224,32,70,255); */
-    /* color:white */
     background-color: rgba(224, 32, 70, 255);
-    text-align: justify;
-    padding: 0 50px;
+    padding: 10px 50px;
     position: absolute;
     opacity: 80%;
 }
@@ -734,32 +731,27 @@ footer {
 
 /* Home Media */
 
-/* #home-image {
-        margin-left: 20px;
-        justify-content: center;
-    }
-
-    #welcome {
-        margin-left: 20px;
-    } */
-
 @media screen and (max-width: 1100px) {
     #about-confidence {
-        top: 70vh;
+        /* top: 70vh; */
         left: 40px;
         font-size: 20px;
-        width: 27%;
+        width: 25%;
         position: absolute;
         margin-left: 20px;
     }
 
     #about-values {
-        top: 65vh;
-        right: 60px;
+        top: 55vh;
+        /* right: 60px; */
         font-size: 20px;
-        width: 27%;
+        width: 25%;
         position: absolute;
         margin-left: 20px;
+    }
+
+    #about-us {
+        top: 180px;
     }
 }
 
@@ -767,36 +759,161 @@ footer {
 @media screen and (max-width: 1000px) {
     #about-values {
         right: 30px;
+        width: 25%
     }
+
+    #left-who {
+        height: 70vh;
+    }
+
+    #right-coach {
+        height: 70vh;
+    }
+
+    #right-what {
+        height: 70vh;
+    }
+
+
+    /* .border-style {
+        padding: 30px;
+    } */
+
+
 }
 
 
 @media screen and (max-width: 800px) {
     #about-confidence {
-        font-size: 16px;
+        top: 75vh;
+        font-size: 18px;
         width: 22%;
     }
 
     #about-values {
         top: 73vh;
-        font-size: 16px;
-        width: 22%;
+        font-size: 18px;
+        width: 25%
+    }
+
+    #about-us {
+        top: 220px;
+        font-size: 25px;
+    }
+
+    #left-who {
+        height: 80vh;
+        padding: 20px;
+    }
+
+    #right-coach {
+        height: 80vh;
+        padding: 20px;
+    }
+
+    #right-what {
+        height: 80vh;
+        padding: 20px;
     }
 }
 
 
 @media screen and (max-width: 600px) {
     #about-confidence {
-        font-size: 15px;
+        top: 80vh;
+        font-size: 16px;
     }
 
     #about-values {
-        top: 52vh;
-        font-size: 15px;
+        top: 85vh;
+        font-size: 16px;
+        width: 30%
     }
+
+    #about-us {
+        font-size: 21px;
+    }
+
+    #left-who {
+        height: 100vh;
+        padding: 10px;
+    }
+
+    #right-coach {
+        height: 100vh;
+        padding: 10px;
+    }
+
+    #right-what {
+        height: 100vh;
+        padding: 10px;
+    }
+
 }
 
 
+@media screen and (max-width: 500px) {
+    #about-confidence {
+        top: 80vh;
+        font-size: 14px;
+    }
+
+    #about-values {
+        top: 80vh;
+        font-size: 14px;
+        width: 30%
+    }
+
+    #left-who {
+        height: 120vh;
+        padding: 5px;
+    }
+
+    #right-coach {
+        height: 120vh;
+        padding: 5px;
+    }
+
+    #right-what {
+        height: 120vh;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #about-us {
+        font-size: 15px;
+    }
+
+    #left-who {
+        height: 120vh;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    #right-coach {
+        height: 120vh;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    #right-what {
+        height: 120vh;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .desc-h2 {
+        font-size: 20px;
+
+    }
+
+    .small-container {
+        text-align: center;
+        display: inline;
+    }
+
+}
 
 
 
@@ -806,15 +923,30 @@ footer {
 /* Video Media */
 @media screen and (max-width: 1000px) {
     video {
-        width: 1000px;
-        height: 270px;
+        width: 850pxpx;
+        height: 1000px;
     }
+}
+
+@media screen and (max-width: 800px) {
+    video {
+        width: 750px;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    video {
+        width: 599px;
+        height: 650px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
     video {
-        width: 320px;
-        height: 180px;
+        width: 495px;
+        height: 500px;
     }
 
 }
@@ -867,6 +999,8 @@ footer {
         margin: 0 auto;
     }
 } */
+
+
 
 
 
