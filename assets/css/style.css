@@ -6,13 +6,14 @@
     border: none;
 }
 
-body, html {
+body,
+html {
     font-family: Montserrat, sans-serif;
-    font:xx-large;
+    font: xx-large;
     font-weight: 300;
     color: rgb(27, 75, 27);
-    background-color: #f8f8f8;
     height: 100%;
+    background-color: whitesmoke;
 }
 
 /* headings and logo */
@@ -21,12 +22,11 @@ header {
     display: flex;
     background-color: whitesmoke;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .header {
     overflow: hidden;
-    /* padding: 20px 10px; */
 }
 
 .header a {
@@ -66,7 +66,7 @@ h3 {
 
 #logo {
     float: left;
-    font-size: 20px; 
+    font-size: 20px;
     /* was 600% */
     color: rgb(27, 75, 27);
     padding-left: 30px;
@@ -75,7 +75,7 @@ h3 {
 /* navigation links - same as running */
 
 #nav-bar {
-    font-size: 20px;  
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -84,10 +84,11 @@ h3 {
     float: left;
     list-style-type: none;
     margin-right: 100px;
-    padding:3px;
+    padding: 3px;
 }
 
-#nav-bar, #logo {
+#nav-bar,
+#logo {
     /* line-height: 80px; */
     padding: 20px 10px;
 }
@@ -121,15 +122,15 @@ h3 {
 }
 
 #home-image {
-    /* background: url('../images/two-boys-rugby.jpg') no-repeat center center;
-    background-size:cover; */
+    background: url('../images/two-boys-rugby-ws.jpg') no-repeat center center;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     clear: both;
     min-height: calc(100vh -201px);
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -176,7 +177,7 @@ h3 {
     /* height: 200px; */
     /* margin: 25vw; */
     /* background-color:rgba(224, 32, 70, 255); */
-    background-color:rgb(27, 75, 27);
+    background-color: rgb(27, 75, 27);
     color: whitesmoke;
     padding: 20px 20px;
 }
@@ -237,9 +238,9 @@ h3 {
 }
 
 #about-confidence {
-    top: 53vh;
-    left: 450px;
-    font-size: 600%;
+    top: 60vh;
+    left: 40px;
+    font-size: 25px;
     width: 27%;
     position: absolute;
     /* color: rgb(27, 75, 27); */
@@ -249,9 +250,9 @@ h3 {
 }
 
 #about-values {
-    top: 48vh;
-    left: 3600px;
-    font-size: 600%;
+    top: 52vh;
+    right: 60px;
+    font-size: 25px;
     width: 27%;
     position: absolute;
     color: rgb(27, 75, 27);
@@ -294,8 +295,8 @@ h3 {
 }
 
 #descriptions p {
-    color:whitesmoke;
-    text-align:justify;
+    color: whitesmoke;
+    text-align: justify;
 }
 
 .img-container {
@@ -305,7 +306,7 @@ h3 {
 }
 
 
-.img-container h1{
+.img-container h1 {
     padding: 40px;
 }
 
@@ -317,7 +318,7 @@ h3 {
 /* Video */
 /* Stack overflow rounded corners on video */
 video {
-    display:block;
+    display: block;
     margin: 10px auto;
     border-radius: 40px;
     -webkit-border-image: 40px;
@@ -328,17 +329,17 @@ video {
 
 .about-image {
     width: 33%;
-    height:100%;
+    height: 100%;
     /* display:flex; */
-    display:inline-flex;
+    display: inline-flex;
 }
 
-#lower-images >img {
+#lower-images>img {
     display: inline-block;
     width: 200px;
-    height:200px;
-    margin:15px;
-    overflow:hidden;
+    height: 200px;
+    margin: 15px;
+    overflow: hidden;
 }
 
 #ideos-images {
@@ -706,15 +707,15 @@ footer {
 /* Header Media */
 @media screen and (max-width: 1100px) {
     header {
-        display:grid;
+        display: grid;
         justify-content: center;
-        clear:left;
-        float:left;
-        margin-left:20px;
-        line-height:25px;
-        background:content-box;
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        line-height: 25px;
+        background: content-box;
     }
-    
+
     /* stack over flow how to reverse order float elements */
     #nav-bar {
         align-items: baseline;
@@ -725,24 +726,69 @@ footer {
 
 
 /* Home Media */
-@media screen and (max-width: 1100px) {
-    #home-image {
-        margin-left:20px;
-    }
- 
-    #welcome {
-        margin-left:20px;
+
+    /* #home-image {
+        margin-left: 20px;
+        justify-content: center;
     }
 
+    #welcome {
+        margin-left: 20px;
+    } */
+
+@media screen and (max-width: 1100px) {
     #about-confidence {
-        margin-left:20px;
+        top: 70vh;
+        left: 40px;
+        font-size: 20px;
+        width: 27%;
+        position: absolute;
+        margin-left: 20px;
     }
 
     #about-values {
-        margin-left:20px;
+        top: 65vh;
+        right: 60px;
+        font-size: 20px;
+        width: 27%;
+        position: absolute;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    #about-values {
+        right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    #about-confidence {
+        font-size: 16px;
+        width: 22%;
     }
 
+    #about-values {
+        top: 73vh;
+        font-size: 16px;
+        width: 22%;
     }
+}
+
+
+@media screen and (max-width: 600px) {
+    #about-confidence {
+        font-size: 15px;
+    }
+
+    #about-values {
+        top: 52vh;
+        font-size: 15px;
+    }
+}
+
 
 
 
@@ -753,7 +799,7 @@ footer {
 /* Video Media */
 @media screen and (max-width: 1000px) {
     video {
-        width:1000px;
+        width: 1000px;
         height: 270px;
     }
 }
@@ -763,7 +809,7 @@ footer {
         width: 320px;
         height: 180px;
     }
-    
+
 }
 
 /* Gallery Media */
@@ -832,7 +878,7 @@ textarea[id="info"] {
     background: transparent;
     background-color: rgba(12, 58, 31, 0.411);
     color: #fafafa;
-    margin: 5px 0 20px 0;   
+    margin: 5px 0 20px 0;
     font-size: 20px;
     font-weight: bold;
 }
@@ -859,7 +905,7 @@ label {
     width: max-content;
     margin-right: 55%;
     z-index: 3;
-    float:left;
+    float: left;
     margin-left: 45%;
     margin-bottom: 30px;
 
@@ -946,8 +992,8 @@ label {
 /* .background-image {
     background-image: url('../images/line-out.jpeg') no-repeat center;
     min-height: 400px; */
-    /* height: 1000%; */
-    /* background-size: cover;
+/* height: 1000%; */
+/* background-size: cover;
     position: relative;
 } */
 
@@ -965,7 +1011,6 @@ label {
 
 .container {
     background: #000 url(../images/line-out.jpeg) no-repeat center center;
-    /* background: #000 url(../images/three-boys-tackling.jpeg) no-repeat center center; */
     color: #fff;
     width: 100%;
     display: flex;
