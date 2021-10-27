@@ -8,6 +8,12 @@ It hopes to provide a friendly representation of the club by including images an
 the pic of responsive on desktop tablet and mobile of my site working goes in here
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)  
 
+![Nav Bar](/css/readme-files/nav-bar.png)
+
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 ## Features 
 
 The website will have three pages;
