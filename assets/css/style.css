@@ -131,7 +131,7 @@ h3 {
     width: 100%;
     clear: both;
     /* this is error on CCSS validator -201px review and take out */
-    min-height: calc(100vh -201px);
+    /* min-height: calc(100vh -201px); */
     display: flex;
     align-items: center;
     justify-content: center;
