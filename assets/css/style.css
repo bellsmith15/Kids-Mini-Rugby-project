@@ -401,7 +401,10 @@ video {
     position: absolute;
     opacity: 80%;
     /* transform: scale(200%); */
-    scale: calc(200%)
+
+    /* work this out is an error as this does nto exist   scale: calc(200%) */
+
+
         /* 	Property scale doesn't exist : calc(200%) W3C error */
 }
 
@@ -679,7 +682,7 @@ footer {
     /*removes the gaps between any images*/
     column-count: 4;
     /*secret source 4 columns for desktops 3 for tablets 2 for mobile if less than 4 pics available then choose 2*/
-    column-gap: 10;
+    column-gap: 10 0;
     /*removes a vertical gap*/
 }
 
@@ -727,7 +730,7 @@ footer {
 
 /* Home Media */
 
-    /* #home-image {
+/* #home-image {
         margin-left: 20px;
         justify-content: center;
     }
@@ -935,12 +938,18 @@ label {
 }
 
 @media screen and (max-width:600px) {
+
     .form-label,
     .form-input,
     input[type=submit],
     input[type=radio],
-    width: 100%;
-    margin-top: 0;
+        {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    /* width: 100%;
+    margin-top 0; */
 }
 
 /* From W3 how to change color in a placeholder */
@@ -1025,7 +1034,8 @@ label {
     width: 100%;
     height: 100%;
     /* background: #000; */
-    background: rgba(17, 23, 26 / 0%) opacity: .7;
+    background: rgba(17, 23, 26 / 0%);
+    opacity: .7;
     position: absolute;
 }
 

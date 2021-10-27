@@ -16,19 +16,24 @@ Format: ![Alt Text](url)
 
 ## Features 
 
-The website will have three pages;
+The website will have four headings;
 
 1. Home page
-2. Gallery page
-3. Sign Up page
+2. About Us
+3. Gallery page
+4. Sign Up page
 
-[Wireframes from Balsamiq](https://github.com/bellsmith15/kids-mini-rugby/blob/main/assets/readme-files/Kids%20Mini%20Ruby%20WireFrames.pdf)
+![All Wireframes in pdf](/assets/readme-files/Kids-Mini-Rugby-WireFrames.pdf)
+
+<!-- [Wireframes from Balsamiq](https://github.com/bellsmith15/kids-mini-rugby/blob/main/assets/readme-files/Kids%20Mini%20Ruby%20WireFrames.pdf) -->
 
 I have chosen the color schemes of red, green and an off-white for the background.  These colors compliment the images that have been used on the website. I produced wireframes on Balsamiq as an example of the pages I was considering doing. (see link)  After my call with my mentor they suggested that I put the about information onto the home page and not on another page and instead create a link within the home page to the nav bar.
 
-[Home page](https://github.com/bellsmith15/kids-mini-rugby/blob/15e0c2c1ed15e2ec68e5c3f0960c05c319158565/assets/readme-files/Homepage%20v2.png)
-[Gallery page](https://github.com/bellsmith15/kids-mini-rugby/blob/15e0c2c1ed15e2ec68e5c3f0960c05c319158565/assets/readme-files/Gallery%20v1.png)
-[Sign Up page](https://github.com/bellsmith15/kids-mini-rugby/blob/15e0c2c1ed15e2ec68e5c3f0960c05c319158565/assets/readme-files/Sign%20Up%20v1.png)
+![Home](/assets/readme-files/Homepage-v1.png)
+![Home](/assets/readme-files/Homepage-v2.png)
+![About Us](/assets/readme-files/About-Us-v1.png)
+![Gallery page](/assets/readme-files/Gallery-v1.png)
+![Sign Up page](/assets/readme-files/Sign-Up-v1.png)
 
 - __Navigation Bar__
 
