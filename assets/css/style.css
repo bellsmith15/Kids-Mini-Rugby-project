@@ -478,7 +478,7 @@ video {
 #table {
     /* margin-right: 20%; */
     float: left;
-    display:inline-flex;
+    display: inline-flex;
     margin: 20px;
     /* padding-left: 40%;
     padding-top: 75px;
@@ -515,7 +515,7 @@ td {
 }
 
 .tablegrid {
-    text-align 20px
+    text-align: 20px;
 }
 
 
@@ -1121,16 +1121,18 @@ label {
     } */
 
 
-    @media screen and (max-width:1300px) {
-        .form-label,
-        .form-input,
-        input[type=submit] input[type=radio] {
-            width: 90%;
-            margin-top: 0;
-        }
+@media screen and (max-width:1300px) {
+
+    .form-label,
+    .form-input,
+    input[type=submit] input[type=radio] {
+        width: 90%;
+        margin-top: 0;
     }
+}
 
 @media screen and (max-width:1200px) {
+
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1140,6 +1142,7 @@ label {
 }
 
 @media screen and (max-width:1100px) {
+
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1149,6 +1152,7 @@ label {
 }
 
 @media screen and (max-width:1000px) {
+
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1159,6 +1163,7 @@ label {
 
 
 @media screen and (max-width:800px) {
+
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1169,6 +1174,7 @@ label {
 
 
 @media screen and (max-width:768px) {
+
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1178,6 +1184,7 @@ label {
 }
 
 @media screen and (max-width:600px) {
+
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
