@@ -478,9 +478,11 @@ video {
 #table {
     /* margin-right: 20%; */
     float: left;
-    padding-left: 40%;
+    display:inline-flex;
+    margin: 20px;
+    /* padding-left: 40%;
     padding-top: 75px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; */
 }
 
 table {
@@ -510,6 +512,10 @@ td {
     border: 1px solid rgb(177, 23, 49);
     padding: 5px;
     background-color: rgb(27, 75, 27);
+}
+
+.tablegrid {
+    text-align 20px
 }
 
 
@@ -654,9 +660,10 @@ footer {
 
 #g-map {
     float: right;
-    width: 40%;
-    padding-right: 5%;
-    height: 300px;
+    /* width: 40%; */
+    /* padding-right: 5%; */
+    padding-top: 40px;
+    height: 200px;
     /* height:fit-content; */
 }
 
@@ -1087,6 +1094,11 @@ label {
     clear: both;
 }
 
+#info-box {
+    /* display: inline-flex; */
+    flex-direction: column;
+}
+
 
 /* 
 @media screen and (max-width:800px) {
@@ -1109,8 +1121,16 @@ label {
     } */
 
 
-@media screen and (max-width:1200px) {
+    @media screen and (max-width:1300px) {
+        .form-label,
+        .form-input,
+        input[type=submit] input[type=radio] {
+            width: 90%;
+            margin-top: 0;
+        }
+    }
 
+@media screen and (max-width:1200px) {
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1120,7 +1140,6 @@ label {
 }
 
 @media screen and (max-width:1100px) {
-
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1130,7 +1149,6 @@ label {
 }
 
 @media screen and (max-width:1000px) {
-
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1141,7 +1159,6 @@ label {
 
 
 @media screen and (max-width:800px) {
-
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1152,7 +1169,6 @@ label {
 
 
 @media screen and (max-width:768px) {
-
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
@@ -1162,7 +1178,6 @@ label {
 }
 
 @media screen and (max-width:600px) {
-
     .form-label,
     .form-input,
     input[type=submit] input[type=radio] {
