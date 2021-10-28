@@ -788,13 +788,6 @@ footer {
     #right-what {
         height: 80vh;
     }
-
-
-    /* .border-style {
-        padding: 30px;
-    } */
-
-
 }
 
 
@@ -901,7 +894,7 @@ footer {
 @media screen and (max-width: 440px) {
     #about-us {
         font-size: 15px;
-        top: 240px;
+        top: 280px;
     }
 
     #left-who {
@@ -971,7 +964,7 @@ footer {
 
 @media screen and (max-width: 440px) {
     video {
-        width: 439px;
+        width: 410px;
         height: 400px;
     }
 
