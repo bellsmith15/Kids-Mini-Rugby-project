@@ -122,7 +122,7 @@ h3 {
     /* border-bottom: 5px solid rgba(224, 32, 70, 255); */
 }
 
-#aboutus-nav a:hover {
+#aboutus-nav h1:hover {
     border-bottom: 5px solid rgb(177, 23, 49);
     text-decoration: none;
 }
@@ -278,7 +278,7 @@ h3 {
 #left-who {
     padding: 40px;
     width: 33%;
-    height: 60vh;
+    height: 70vh;
     float: left;
     /* background-color: red */
     background-color: rgb(27, 75, 27);
@@ -288,7 +288,7 @@ h3 {
 #right-what {
     padding: 40px;
     width: 33%;
-    height: 60vh;
+    height: 70vh;
     margin: 0 auto;
     /* background-color: blue */
     background-color: rgb(27, 75, 27);
@@ -298,7 +298,7 @@ h3 {
 #right-coach {
     padding: 40px;
     width: 33%;
-    height: 60vh;
+    height: 70vh;
     float: right;
     /* background-color: green */
     background-color: rgb(27, 75, 27);
@@ -778,15 +778,15 @@ footer {
     }
 
     #left-who {
-        height: 70vh;
+        height: 80vh;
     }
 
     #right-coach {
-        height: 70vh;
+        height: 80vh;
     }
 
     #right-what {
-        height: 70vh;
+        height: 80vh;
     }
 
 
@@ -817,17 +817,17 @@ footer {
     }
 
     #left-who {
-        height: 80vh;
+        height: 90vh;
         padding: 20px;
     }
 
     #right-coach {
-        height: 80vh;
+        height: 90vh;
         padding: 20px;
     }
 
     #right-what {
-        height: 80vh;
+        height: 90vh;
         padding: 20px;
     }
 }
@@ -850,17 +850,17 @@ footer {
     }
 
     #left-who {
-        height: 100vh;
+        height: 110vh;
         padding: 10px;
     }
 
     #right-coach {
-        height: 100vh;
+        height: 110vh;
         padding: 10px;
     }
 
     #right-what {
-        height: 100vh;
+        height: 110vh;
         padding: 10px;
     }
 
@@ -882,16 +882,19 @@ footer {
     #left-who {
         height: 120vh;
         padding: 5px;
+        font-size: 13px;
     }
 
     #right-coach {
         height: 120vh;
         padding: 5px;
+        font-size: 13px;
     }
 
     #right-what {
         height: 120vh;
         padding: 5px;
+        font-size: 13px;
     }
 }
 
