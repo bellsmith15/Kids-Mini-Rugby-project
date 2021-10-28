@@ -128,7 +128,7 @@ h3 {
 }
 
 #home-image {
-    background: url('../images/two-boys-rugby-ws.jpg') no-repeat center center;
+    background: url('../images/two-boys-rugby-4mp.jpg') no-repeat center center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -1026,6 +1026,7 @@ textarea[id="info"] {
     border: 8px solid #fafafa;
     border-radius: 4px;
     box-sizing: border-box;
+    resize: vertical;
     /* resize: vertical; this allows user to make box bigger if not it makes a scroll bar */
     background: transparent;
     background-color: rgba(12, 58, 31, 0.411);
@@ -1085,6 +1086,27 @@ label {
     display: table;
     clear: both;
 }
+
+
+/* 
+@media screen and (max-width:800px) {
+
+    .form-label,
+    .form-input,
+    input[type=submit] input[type=radio] {
+        width: 50%;
+        margin-top: 0;
+    } */
+
+/* 
+@media screen and (max-width:768px) {
+
+    .form-label,
+    .form-input,
+    input[type=submit] input[type=radio] {
+        width: 100%;
+        margin-top: 0;
+    } */
 
 @media screen and (max-width:600px) {
 
