@@ -10,6 +10,8 @@ the pic of responsive on desktop tablet and mobile of my site working goes in he
 
 ![Nav Bar](/assets/readme-files/nav-bar.png)
 
+![Nav Bar](/assets/readme-files/nav_bar.jpeg)
+
 
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
@@ -40,6 +42,9 @@ I have chosen the color schemes of red, green and an off-white for the backgroun
   - The navigation bar will be featured on all three pages. The navigation will link to the Home page, the About Us section within the home page, the Gallery and the Sign Up page.  This will allow the users to easily navigate between each of the pages.
 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+
+![Nav Bar](/assets/readme-files/nav_bar.jpeg)
 
 pic of nav bar dropped in here !!
 ![Nav Bar](https://github.com/bellsmith15/kids-mini-rugby/blob/main/png-files/nav-bar.png)
