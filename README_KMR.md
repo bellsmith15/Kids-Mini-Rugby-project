@@ -94,6 +94,30 @@ the pic of responsive on desktop tablet and mobile of my site working goes in he
 - https://web.dev/measure/
 
 
+## Tested Browsers:
+
+Google Chrome
+Microsoft Edge - ? icon on signup not read came out as code
+Mozilla Firefox - ? icon on signup not read came out as code
+Safari - ipad mini
+
+
+Mobile S - 320px
+Mobile M - 375px
+Mobile S - 425px
+
+Tablet @ 768px
+Laptop @ 1024px
+Large @ 1440px
+
+iPhone 6/7/8
+iPhone 6/7/8 Plus
+iPhone X
+iPad
+iPad mini
+
+
+Bugs fixed Media queries when testing in browsers on inspect
 
 <!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -113,8 +137,13 @@ If this section grows too long, you may want to split it off into a separate fil
   - [W3C validato - Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) -->
 
 - CSS
-  - No errors were found when passing through the official 
-  <!-- - [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css) -->
+  - No errors were found when passing through the W3C CSS validation on either the home, gallery or signup pages 
+  
+- ![CSS homepage](/assets/readme-files/validation/W3C-CSS-Validation-Service-homepage.png)
+
+- ![CSS gallery](/assets/readme-files/validation/W3C-CSS-Validation-Service-gallery.png)
+
+- ![CSS signup](/assets/readme-files/validation/W3C-CSS-Validation-Service-signup.png)
 
 ### Unfixed Bugs
 
