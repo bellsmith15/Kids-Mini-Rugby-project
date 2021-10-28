@@ -8,10 +8,6 @@ It hopes to provide a friendly representation of the club by including images an
 the pic of responsive on desktop tablet and mobile of my site working goes in here
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)  
 
-![Nav Bar](/assets/readme-files/nav-bar.png)
-
-![Nav Bar](/assets/readme-files/nav_bar.jpeg)
-
 
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
@@ -43,12 +39,7 @@ I have chosen the color schemes of red, green and an off-white for the backgroun
 
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-
-![Nav Bar](/assets/readme-files/nav_bar.jpeg)
-
-pic of nav bar dropped in here !!
-![Nav Bar](https://github.com/bellsmith15/kids-mini-rugby/blob/main/png-files/nav-bar.png)
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](/assets/readme-files/nav_bar.png)
 
 - __The landing page image__
 
@@ -70,14 +61,13 @@ pic dropped in here !!
 
   - The footer section includes contact information and links to social media sites for kids mini rugby. The links will open to a new tab to allow easy navigation for the user. 
 
-pic dropped in here !!
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/readme-files/footer.png)
 
 - __Gallery__
 
 - The Gallery will display images of children and coaches so that the user can see what the rugby sessions are like and if they would be interested in signing up for sessions.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) -->
+![Gallery](/assets/readme-files/gallery.png)
 
 - __The Sign Up Page__
 
@@ -133,6 +123,8 @@ If this section grows too long, you may want to split it off into a separate fil
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html  -->
+
+https://bellsmith15.github.io/Kids-Mini-Rugby-project/index.html
 
 
 ## Credits 
