@@ -843,7 +843,7 @@ footer {
 /* Signup Media */
 @media screen and (max-width: 600px) {
     tr {
-        grid-template-columns: 6fr 6fr 6fr;
+        grid-template-columns: 8fr 7fr 8fr;
     }
 }
 
@@ -853,9 +853,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
     tr {
-        grid-template-columns: 9fr 9fr 9fr;
+        grid-template-columns: 9fr 9fr 9fr;;
     }
 }
 
