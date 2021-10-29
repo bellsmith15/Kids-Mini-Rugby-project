@@ -782,8 +782,47 @@ footer {
         text-align: center;
         display: inline;
     }
-
 }
+
+@media screen and (max-width: 375px) {
+    #about-us {
+        font-size: 15px;
+        top: 300px;
+    }
+
+    #who {
+        height: 85vh;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    #coach {
+        height: 85vh;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    #what {
+        height: 85vh;
+        padding: 5px;
+        font-size: 13px;
+    }
+
+    .desc-h2 {
+        font-size: 20px;
+
+    }
+
+    .small-container {
+        text-align: center;
+        display: inline;
+    }
+}
+
+
+
+
+
 
 
 /* Video Media */
@@ -806,7 +845,6 @@ footer {
         width: 599px;
         height: 650px;
     }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -821,8 +859,15 @@ footer {
         width: 410px;
         height: 400px;
     }
-
 }
+
+@media screen and (max-width: 375px) {
+    video {
+        width: 365px;
+        height: 400px;
+    }
+}
+
 
 
 /* Gallery Media */
@@ -865,7 +910,7 @@ footer {
 
 input[type=text],
 input[type=email],
-textarea[id="info"] {
+textarea[id="information"] {
     width: 100%;
     padding: 12px;
     border: 8px solid #fafafa;
@@ -883,7 +928,7 @@ textarea[id="info"] {
 
 input[type=text],
 input[type=email],
-textarea[id="info"] {
+textarea[id="information"] {
     border-color: #154b27;
 }
 
