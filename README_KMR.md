@@ -97,8 +97,8 @@ the pic of responsive on desktop tablet and mobile of my site working goes in he
 ## Tested Browsers:
 
 Google Chrome
-Microsoft Edge - ? icon on signup not read came out as code
-Mozilla Firefox - ? icon on signup not read came out as code
+Microsoft Edge
+Mozilla Firefox
 Safari - ipad mini
 
 
