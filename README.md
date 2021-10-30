@@ -107,7 +107,7 @@ Insert screen shot of it here
 
 - Bugs fixed during development through Media queries and CSS styling when testing in browsers or on inspect.  A Bug found with the images section on the home page on reviewing the web.dev was resolved with CSS container to resize the images.
 
-- There is a known bug in the Form section. In this instance the Form is not posted to a link and has been omitted on purpose for this project and advised by my mentor to state this in the readme document.  If a user  woudl try and complete their form it would not be sent and a 501 error occurs. 
+- There is a known bug in the Form section. In this instance the Form is not posted to a link and has been omitted as advised by my mentor and to state this was an intended action in the readme.md document.  If a user  woudl try and complete their form it would not be sent and a 501 error occurs. 
 
    -  https://formdump.codeinstitute.net/" IS NOT POSTED IN THIS PROJECT get 501 error - is noted on line 44 of the signup.html.
 
