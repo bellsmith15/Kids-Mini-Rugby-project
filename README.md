@@ -117,6 +117,8 @@ Insert screen shot of it here
 
 - Some of the confidence and values paragraphs were coming out in the incorrect places, after checking the responsiveness in each device this was resolved by entering the correct height and font values.
 
+- Another bug was found on the signup form. The join for label to textarea id was not matching after an edit and was reverted back to clear the error on the html validator check.
+
 
 ### Validator Testing 
 
