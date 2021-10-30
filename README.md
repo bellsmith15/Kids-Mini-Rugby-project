@@ -126,9 +126,12 @@ Insert screen shot of it here
 
 - HTML
  - No errors were found when passing through the W3C HTML validation on either the home, gallery or signup pages 
-  <!-- - [W3C validato - Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  - [W3C validato - Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-  - [W3C validato - Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) -->
+
+  - [W3C validation - Home page](/assets/readme-files/validation/W3C-HTML-Validation-Service-homepage.png)
+
+  - [W3C validation - Gallery page](/assets/readme-files/validation/W3C-HTML-Validation-Service-gallery.png)
+
+  - [W3C validation - Sign Up page](/assets/readme-files/validation/W3C-HTML-Validation-Service-signup.png)
 
 - CSS
   - No errors were found when passing through the W3C CSS validation on either the home, gallery or signup pages 
@@ -184,8 +187,8 @@ The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-
 ### Content 
 
 - The icons in the pages and footer were taken from [Font Awesome](https://fontawesome.com/)
-- The favicon for the page was made on [F](https://www.flaticon.com/free-icons/rugby-ball)
-- The Flaticon site was used to replace the Formito favicon as it failed the html validation
+- The favicon for the page was made on [Formito.com](https://formito.com/tools/favicon)
+- The Flaticon site was used to replace the Formito favicon as it failed the html validation [Flaticon](https://www.flaticon.com/free-icons/rugby-ball) 
 
 
 ### Media
