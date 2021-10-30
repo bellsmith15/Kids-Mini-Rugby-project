@@ -113,7 +113,7 @@ All three browsers social media links worked correctly and opened a new browser 
 
 ## Bugs
 
-- There is a known bug in the Form section. In this instance the Form is not posted to a link and has been omitted as advised by my mentor and to state this was an intended action in the readme.md document.  If a user  woudl try and complete their form it would not be sent and a 501 error occurs. 
+- There is a known bug in the Form section. In this instance the Form is not posted to a link and has been omitted as advised by my mentor and to state this was an intended action in the readme.md document.  If a user would try and complete their form it would not be sent and a 501 error occurs. 
 
    -  https://formdump.codeinstitute.net/" IS NOT POSTED IN THIS PROJECT get 501 error - is noted on line 44 of the signup.html.
 
