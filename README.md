@@ -105,19 +105,17 @@ Insert screen shot of it here
 - Mobile @ 320px
 
 
-- Bugs fixed Media queries when testing in browsers on inspect
+- Bugs fixed during development through Media queries and CSS styling when testing in browsers or on inspect.  A Bug found with the images section on the home page on reviewing the web.dev was resolved with CSS container to resize the images.
 
-- FORM bug in this instance the FORM is not posted to a link and has been omitted
+- There is a known bug in the Form section. In this instance the Form is not posted to a link and has been omitted on purpose for this project and advised by my mentor to state this in the readme document.  If a user  woudl try and complete their form it would not be sent and a 501 error occurs. 
 
-   -  https://formdump.codeinstitute.net/" IS NOT POSTED IN THIS PROJECT get 501 error
+   -  https://formdump.codeinstitute.net/" IS NOT POSTED IN THIS PROJECT get 501 error - is noted on line 44 of the signup.html.
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- When testing the responsiveness the navigation items appeared in the reverse order when reduced to a mobile size.  I corrected this by researching on stack over flow on how to reverse order float elements, which resolved the bug.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- In the browsers I tested that all the links worked in the pages and that the video content played ok. The website looks good on desktop and laptop and lower sizes have the images tiled on top of each other when the responsiveness is reduced. On ** browser welcome note is in the wrong position for a desktop
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+- Some of the confidence and values paragraphs were coming out in the incorrect places, after checking the responsiveness in each device this was resolved by entering the correct height and font values.
 
 
 ### Validator Testing 
@@ -137,13 +135,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - ![CSS signup](/assets/readme-files/validation/W3C-CSS-Validation-Service-signup.png)
 
-### Unfixed Bugs
-
-<!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.  -->
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - Login to GitHub with my Username and password
@@ -157,6 +150,7 @@ The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-
 
 
 ### Content and Media
+
 - HTML - was used for structuring and presenting content to the web.
 - CSS - was used to style the pages.
 - GitHub - was used to host the deployed website and the repository of all previous versions.
@@ -169,6 +163,7 @@ The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-
 
 
 ### Support
+
 - https://w3schools.com for tips and queries when troubleshooting images, responsiveness, forms and tables
 - https://stackoverflow.com for tips and queries when troubleshooting images, responsiveness, forms and tables
 - http://ami.responsivedesign.is/# for testing responsiveness

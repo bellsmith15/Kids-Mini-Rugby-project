@@ -219,6 +219,21 @@ h3 {
 
 /* About Us large image row */
 
+
+.aboutus-large-photos-container img {
+    height: auto;
+    width: 280px;
+    padding-left: 20px;
+}
+
+.border-radius {
+    border-radius: 180px;
+}
+
+#try-image {
+    height: 385px;
+}
+
 .large-column {
     float: left;
     width: 33%;
@@ -678,7 +693,6 @@ footer {
 
     #about-us {
         font-size: 15px;
-        /* top: 300px; */
     }
 
     #who {
