@@ -6,7 +6,7 @@ It hopes to provide a friendly representation of the club by including images an
 
 ## Features 
 
-The website will have four navigation headings;
+The website will have four navigation headings, with the About Us being embedded in the Home page following discussions with my mentor;
 
 1. Home page
 2. About Us
@@ -97,23 +97,12 @@ Insert screen shot of it here
 - Mozilla Firefox
 - Safari
 
-- Desktop
+## Tested Responsiveness on:
 - Laptop @ 1024px
-- Mobile @ 375px
-
-- Mobile @ 320px
-- Mobile @ 425px
-
-- iPhone 6/7/8
-- iPad @ 768px
-
-
 - Tablet @ 768px
-- Laptop @ 1024px
-- Large @ 1440px
-
-
-- iPad mini
+- Mobile @ 425px
+- Mobile @ 375px
+- Mobile @ 320px
 
 
 - Bugs fixed Media queries when testing in browsers on inspect
@@ -159,19 +148,13 @@ This section should describe the process you went through to deploy the project 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - Login to GitHub with my Username and password
   - Opened the Kids-Mini-Rugby-project repository
-  <!-- - In this GitHub repository, navigate to the Settings tab / button?? -->
-  - Then click on "Pages"
+  - Navigate to the "Settings" tab
+  - Then click on "Pages" from the "Options" menu
   - From the "Source" section, click the dropdown for "Branch" and select "Master" then hit "Save"
   - Once the Master Branch has been selected, the page will be automatically refreshed with a message advising "Your site is published at..
 
 The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-project/index.html
 
-
-## Credits 
-<!-- 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.  -->
 
 ### Content and Media
 - HTML - was used for structuring and presenting content to the web.
@@ -179,24 +162,29 @@ You can break the credits section up into Content and Media, depending on what y
 - GitHub - was used to host the deployed website and the repository of all previous versions.
 - Gitpod - was used as a cloud based environment for development.
 - GitHub Pages - was used to deploy the website.
-- Google Fonts - was used to source 
-- Font Awesome - was used to source all fonts
-- Pexel - was used to source all video and images
+- Google Fonts - was used to source all fonts.
+- Font Awesome - was used to source all icon images to be used in CSS.
+- Pexel - was used to source all video and images.
+- Formito.com - was used to make a free favicon.
+
 
 ### Support
-- https://w3schools.com for tips and queries when troubleshooting
-- https://stackoverflow.com for tips and queries when troubleshooting
+- https://w3schools.com for tips and queries when troubleshooting images, responsiveness, forms and tables
+- https://stackoverflow.com for tips and queries when troubleshooting images, responsiveness, forms and tables
 - http://ami.responsivedesign.is/# for testing responsiveness
-- https://web.dev/measure/ formeasureing the website performance
+- https://web.dev/measure/ for measuring the website performance
+- https://extension.umaine.edu/plugged-in/technology-marketing-communications/web/tips-for-web-managers/embed-map/ for how to embed a google map
+- https://imagekit.io/blog/how-to-resize-image-in-html/ for how to resize an image in HTML
+- Developer Tools - inspect for troubleshooting code and bugs
 - Code Institute for The Love Running Walkthrough project and essential HTML and CSS for guidance
 - Support and guidance from my sessions with my mentor
 
 
 ### Content 
 
-<!-- - The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/) -->
 - The icons in the pages and footer were taken from [Font Awesome](https://fontawesome.com/)
+- The favicon for the page was made on [Formito](https://formito.com/tools/favicon)
+
 
 ### Media
 
@@ -204,36 +192,3 @@ You can break the credits section up into Content and Media, depending on what y
 - The images used for the gallery page were taken from Pexel
 
 - The images and videos used for the web pages gallery were taken from [Pexel](https://www.pexels.com/search/rugby/) and [Videvo](https://www.videvo.net/search/rugby/)
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#Gen
-
-
-<!-- ## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
- -->
-
- ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-
-

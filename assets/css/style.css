@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Montserrat:wght@700&display=swap');
 
-/* body and html structure - reference to Love Running project */
+/* body and html structure - reference from Love Running project */
 
 * {
     margin: 0;
@@ -18,7 +18,7 @@ html {
     background-color: whitesmoke;
 }
 
-/* headings and logo */
+/* headings and logo - W3 schools How to create a responsive header */
 
 header {
     display: flex;
@@ -49,18 +49,12 @@ header {
     ;
 }
 
-
 h1,
 h2 {
     font-family: Exo2, sans-serif;
     text-transform: uppercase;
     color: rgb(177, 23, 49);
     padding-bottom: 15px;
-
-    /* color: rgba(224, 32, 70, 255);  */
-    /* color: rgba(224, 32, 70,); have to drop the 255 as CSS validator says its out of range*/
-    /* color: rgb(243, 132, 4); */
-    /* color:rgb(27, 75, 27); */
 }
 
 h3 {
@@ -73,7 +67,7 @@ h3 {
     color: rgb(27, 75, 27);
 }
 
-/* navigation links - reference to Love Running project */
+/* navigation links - reference from Love Running project and W3 schools - Navbar with icons (responsive) */
 
 #nav-bar {
     font-size: 20px;
@@ -157,7 +151,6 @@ h3 {
 .offer-container {
     position: relative;
     width: 100%;
-    /* text-align: center; */
     padding: 50px;
     /* this is relative for the floating sign up box */
 }
@@ -173,14 +166,12 @@ h3 {
     padding-top: 40px;
     width: 100%;
     float: left;
-    /* background-color: red */
 }
 
 #group-age-sessions {
     padding-top: 40px;
     width: 100%;
     float: right;
-    /* background-color: blue */
 }
 
 .list-offer ul,
@@ -204,7 +195,6 @@ h3 {
 /* About Us text */
 
 #welcome {
-    /* height: 200px; */
     width: 100%;
 }
 
@@ -215,7 +205,6 @@ h3 {
     width: 27%;
     position: absolute;
     color: whitesmoke;
-    /* font: bold; */
 }
 
 #about-values {
@@ -240,7 +229,6 @@ h3 {
     content: "";
     clear: both;
     display: table;
-    /* display:table-row-group; */
 }
 
 @media screen and (max-width: 768px) {
@@ -257,7 +245,6 @@ h3 {
 }
 
 
-
 /* descriptions */
 
 #who {
@@ -265,7 +252,6 @@ h3 {
     width: 33%;
     height: 40vh;
     float: left;
-    /* background-color: red */
     background-color: rgb(27, 75, 27);
     border-radius: 10px;
 }
@@ -275,7 +261,6 @@ h3 {
     width: 33%;
     height: 40vh;
     margin: 0 auto;
-    /* background-color: blue */
     background-color: rgb(27, 75, 27);
     border-radius: 10px;
 }
@@ -285,30 +270,21 @@ h3 {
     width: 33%;
     height: 40vh;
     float: right;
-    /* background-color: green */
     background-color: rgb(27, 75, 27);
     border-radius: 10px;
 }
 
 #descriptions p {
     color: whitesmoke;
-    /* text-align: justify; */
 }
 
 .desc-container {
     padding: 5px;
 }
 
-
-/* .desc-container h2 {
-    padding: 5px;
-    font-size: 18px;
-} */
-
 .border-style {
     border-radius: 100px;
 }
-
 
 
 
@@ -320,7 +296,6 @@ video {
     border-radius: 40px;
     overflow: hidden;
 }
-
 
 
 .about-image {
@@ -338,19 +313,6 @@ video {
     overflow: hidden;
 }
 
-#ideos-images {
-    clear: both;
-    /*photo section appears below the header*/
-    line-height: 3;
-    /*removes the gaps between any images*/
-    column-count: 4;
-    /*secret source 4 columns for desktops 3 for tablets 2 for mobile if less than 4 pics available then choose 2*/
-    column-gap: 10px;
-    /* column-gap: 10; */
-    /*removes a vertical gap*/
-}
-
-
 
 /* About Us text */
 
@@ -358,7 +320,6 @@ video {
     text-align: center;
     font-size: 35px;
     width: 100%;
-    /* top: 105px; */
     color: whitesmoke;
     background-color: rgb(177, 23, 49);
     padding: 10px 50px;
@@ -386,7 +347,7 @@ video {
     font: bold;
 }
 
-/* Table of Dates and Times - reference to Love Running project example*/
+/* Table of Dates and Times - reference from Love Running project example*/
 
 #table {
     float: left;
@@ -512,34 +473,15 @@ footer {
     height: 200px;
 }
 
-/* 
-#menu ul li a {
-    z-index: 5;
-    position: relative;
-    float: left;
-    display: inline;
-    height: 31px;
-    overflow: hidden;
-    text-decoration: none;
-    color: #336699;
-    font-size: 20px;
-    margin: 0;
-    padding: 0
-} */
 
-
-
-/* Gallery - as per code institute love running project */
+/* Gallery - reference from Love Running project */
 
 #photos {
     clear: both;
-    /*photo section appears below the header*/
     line-height: 3;
-    /*removes the gaps between any images*/
     column-count: 4;
     /*secret source 4 columns for desktops 3 for tablets 2 for mobile if less than 4 pics available then choose 2*/
     column-gap: 10px;
-    /*removes a vertical gap*/
 }
 
 #photos>img {
@@ -562,7 +504,6 @@ footer {
     }
 }
 
-
 /* Header Media */
 @media screen and (max-width: 1100px) {
     header {
@@ -575,7 +516,7 @@ footer {
         background: content-box;
     }
 
-/* stack over flow how to reverse order float elements */
+    /* stack over flow how to reverse order float elements */
     #nav-bar {
         align-items: baseline;
         float: right;
@@ -611,19 +552,14 @@ footer {
 
 
 @media screen and (max-width: 1024px) {
-    #about-values {
-        right: 30px;
-        width: 25%
-    }
-
     #about-confidence {
         top: 66vh;
-        font-size: 24px;
+        font-size: 26px;
     }
 
     #about-values {
-        top: 62vh;
-        font-size: 24px;
+        top: 40vh;
+        font-size: 26px;
     }
 
     #who {
@@ -679,71 +615,19 @@ footer {
 }
 
 
-/* @media screen and (max-width: 600px) {
-    #about-confidence {
-        top: 80vh;
-        font-size: 16px;
-    }
-
-    #about-values {
-        top: 85vh;
-        font-size: 16px;
-        width: 30%
-    }
-
-    #about-us {
-        font-size: 21px;
-    }
-
-    #who {
-        height: 50vh;
-        padding: 10px;
-    }
-
-    #coach {
-        height: 50vh;;
-        padding: 10px;
-    }
-
-    #what {
-        height: 50vh;
-        padding: 10px;
-    }
-} */
-
-/* 
-@media screen and (max-width: 500px) {
-    #about-confidence {
-        top: 80vh;
-        font-size: 14px;
-    }
-
-    #about-values {
-        top: 80vh;
-        font-size: 14px;
-        width: 30%
-    }
-
-    #who {
-        height: 40vh;
-        padding: 5px;
-        font-size: 13px;
-    }
-
-    #coach {
-        height: 40vh;
-        padding: 5px;
-        font-size: 13px;
-    }
-
-    #what {
-        height: 40vh;
-        padding: 5px;
-        font-size: 13px;
-    }
-} */
-
 @media screen and (max-width: 425px) {
+    #about-confidence {
+        top: 80vh;
+        font-size: 16px;
+        width: 22%;
+    }
+
+    #about-values {
+        top: 45vh;
+        font-size: 16px;
+        width: 25%
+    }
+
     #about-us {
         font-size: 15px;
         top: 310px;
@@ -779,14 +663,19 @@ footer {
 }
 
 
-/* @media screen and (max-width: 425px) {
-.desc-h2 {
-    font-size: 20px;
-
-} */
-
-
 @media screen and (max-width: 375px) {
+    #about-confidence {
+        top: 80vh;
+        font-size: 14px;
+        width: 22%;
+    }
+
+    #about-values {
+        top: 45vh;
+        font-size: 14px;
+        width: 25%
+    }
+
     #about-us {
         font-size: 15px;
         top: 300px;
@@ -823,6 +712,18 @@ footer {
 
 
 @media screen and (max-width: 320px) {
+    #about-confidence {
+        top: 100vh;
+        font-size: 12px;
+        width: 22%;
+    }
+
+    #about-values {
+        top: 50vh;
+        font-size: 11px;
+        width: 25%
+    }
+
     #about-us {
         font-size: 15px;
         top: 350px;
@@ -858,9 +759,6 @@ footer {
 }
 
 
-
-
-
 /* Video Media */
 @media screen and (max-width: 1440px) {
     video {
@@ -883,20 +781,6 @@ footer {
     }
 }
 
-/* @media screen and (max-width: 600px) {
-    video {
-        width: 599px;
-        height: 650px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    video {
-        width: 495px;
-        height: 500px;
-    }
-} */
-
 @media screen and (max-width: 425px) {
     video {
         width: 420px;
@@ -917,8 +801,6 @@ footer {
         height: 400px;
     }
 }
-
-
 
 
 /* Gallery Media */
@@ -951,13 +833,13 @@ footer {
 
 @media screen and (max-width: 440px) {
     tr {
-        grid-template-columns: 9fr 9fr 9fr;;
+        grid-template-columns: 9fr 9fr 9fr;
+        ;
     }
 }
 
 
-
-/* Form */
+/* Form  - reference from Love Running project example and W3schools - Form on Image */
 
 input[type=text],
 input[type=email],
@@ -1112,17 +994,6 @@ label {
     opacity: 1;
     /* Firefox */
 }
-
-/* :-ms is error in CSS validator take it out+ */
-/* :-ms-input-placeholder { */
-/* Internet Explorer 10-11  :-ms-input-placeholder is a vendor extended pseudo-class */
-/* color: whitesmoke;
-} */
-
-/* ::-ms-input-placeholder { */
-/* Microsoft Edge  ::-ms-input-placeholder is a vendor extended pseudo-element */
-/* color: whitesmoke;
-} */
 
 #join-button {
     margin-top: 20px;
