@@ -209,7 +209,7 @@ h3 {
 
 #about-values {
     top: 40vh;
-    right: 10px;
+    right: 100px;
     font-size: 25px;
     width: 27%;
     position: absolute;
@@ -250,7 +250,7 @@ h3 {
 #who {
     padding: 40px;
     width: 33%;
-    height: 40vh;
+    height: 350px;
     float: left;
     background-color: rgb(27, 75, 27);
     border-radius: 10px;
@@ -259,7 +259,7 @@ h3 {
 #what {
     padding: 40px;
     width: 33%;
-    height: 40vh;
+    height: 350px;
     margin: 0 auto;
     background-color: rgb(27, 75, 27);
     border-radius: 10px;
@@ -268,7 +268,7 @@ h3 {
 #coach {
     padding: 40px;
     width: 33%;
-    height: 40vh;
+    height: 350px;
     float: right;
     background-color: rgb(27, 75, 27);
     border-radius: 10px;
@@ -546,7 +546,7 @@ footer {
     }
 
     #about-us {
-        top: 10vh;
+        top: 14vh;
     }
 }
 
@@ -554,24 +554,24 @@ footer {
 @media screen and (max-width: 1024px) {
     #about-confidence {
         top: 66vh;
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #about-values {
         top: 40vh;
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #who {
-        height: 55vh;
+        height: 460px;
     }
 
     #coach {
-        height: 55vh;
+        height: 460px;
     }
 
     #what {
-        height: 55vh;
+        height: 460px;
     }
 
     #about-us {
@@ -594,22 +594,22 @@ footer {
     }
 
     #about-us {
-        top: 250px;
+        top: 230px;
         font-size: 25px;
     }
 
     #who {
-        height: 65vh;
+        height: 480px;
         padding: 20px;
     }
 
     #coach {
-        height: 65vh;
+        height: 480px;
         padding: 20px;
     }
 
     #what {
-        height: 65vh;
+        height: 480px;
         padding: 20px;
     }
 }
@@ -623,7 +623,7 @@ footer {
     }
 
     #about-values {
-        top: 45vh;
+        top: 80vh;
         font-size: 16px;
         width: 25%
     }
@@ -634,19 +634,19 @@ footer {
     }
 
     #who {
-        height: 60vh;
+        height: 520px;
         padding: 5px;
         font-size: 13px;
     }
 
     #coach {
-        height: 60vh;
+        height: 520px;
         padding: 5px;
         font-size: 13px;
     }
 
     #what {
-        height: 60vh;
+        height: 520px;
         padding: 5px;
         font-size: 13px;
     }
@@ -671,30 +671,30 @@ footer {
     }
 
     #about-values {
-        top: 45vh;
+        top: 80vh;
         font-size: 14px;
         width: 25%
     }
 
     #about-us {
         font-size: 15px;
-        top: 300px;
+        /* top: 300px; */
     }
 
     #who {
-        height: 70vh;
+        height: 565px;
         padding: 5px;
         font-size: 13px;
     }
 
     #coach {
-        height: 70vh;
+        height: 565px;
         padding: 5px;
         font-size: 13px;
     }
 
     #what {
-        height: 70vh;
+        height: 565px;
         padding: 5px;
         font-size: 13px;
     }
@@ -719,30 +719,30 @@ footer {
     }
 
     #about-values {
-        top: 50vh;
-        font-size: 11px;
+        top: 100vh;
+        font-size: 12px;
         width: 25%
     }
 
     #about-us {
         font-size: 15px;
-        top: 350px;
+        top: 310px;
     }
 
     #who {
-        height: 60vh;
+        height: 440px;
         padding: 5px;
         font-size: 10px;
     }
 
     #coach {
-        height: 60vh;
+        height: 440px;
         padding: 5px;
         font-size: 10px;
     }
 
     #what {
-        height: 60vh;
+        height: 440px;
         padding: 5px;
         font-size: 10px;
     }
