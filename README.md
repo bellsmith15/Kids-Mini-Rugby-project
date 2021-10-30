@@ -113,24 +113,21 @@ All three browsers social media links worked correctly and opened a new browser 
 
 ## Bugs
 
-- Bugs fixed during development through Media queries and CSS styling when testing in browsers or on inspect.  A Bug found with the images section on the home page on reviewing the web.dev was resolved with CSS container to resize the images.
-
 - There is a known bug in the Form section. In this instance the Form is not posted to a link and has been omitted as advised by my mentor and to state this was an intended action in the readme.md document.  If a user  woudl try and complete their form it would not be sent and a 501 error occurs. 
 
    -  https://formdump.codeinstitute.net/" IS NOT POSTED IN THIS PROJECT get 501 error - is noted on line 44 of the signup.html.
 
-- When testing the responsiveness the navigation items they appeared in the reverse order when reduced to a mobile size.  I corrected this by researching on stack over flow on how to reverse order float elements, which resolved the bug.
+- Bugs fixed during development through Media queries and CSS styling when testing in browsers or on inspect.  A Bug found with the images section on the home page on reviewing the web.dev was resolved with CSS container to resize the images so that they would stack on top of each other when the devices was smaller.
+
+- When testing the responsiveness on the navigation items they appeared in the reverse order when reduced to a mobile size.  I corrected this by researching on stack over flow on how to reverse order float elements, which resolved the bug. The solution was to add and opposite float element so that the Home, About Us, Gallery and Sign up were in the right order for the User to see.
 
 - In the browsers I tested that all the links worked in the pages and that the video content played ok. The website looks good on desktop and laptop and lower sizes have the images tiled on top of each other when the responsiveness is reduced. On a laptop browser view where the welcome note was in the wrong position for a desktop, this was debugged.
 
-- Some of the confidence and values paragraphs were coming out in the incorrect places, after checking the responsiveness in each device this was resolved by entering the correct height and font values.
+- Some of the confidence and values paragraphs were coming out in the incorrect places on MS edge, after checking the responsiveness in each device this was resolved by entering the correct height and font values to the tested sizes.
 
-- Another bug was found on the signup form. The join for label to textarea id was not matching after an edit of an id element was reverted back it cleared the error on the html validator check.
+- Whilst testing another bug was found on the signup form. The join for label to textarea id was not matching after an edit of an id element was removed it cleared the error on the html validator check and the resulting textarea of the code on the form was resolved after I had found a solution on W3 schools for textarea tag, I could see that the id= was not needed.
 
-- Also a bug found on the textarea code of the form resolved after finding a solution on W3 schools for textarea tag.
-
-- I have spent some time trying to imprrove upon the performance score and managed to increase this by 6%. For future features I would like to improve on this and understand the best areas this could be achieved.
-
+- I have spent some time trying to improve upon the performance score and managed to increase this by 6%. For future features I would like to improve on this and understand the best areas this could be achieved.  I have enjoyed working on my first website and feel that coding is constant and there is always an opportunity to tweak and re-tweak the code to make it better.
 
 
 ## Validator Testing 
