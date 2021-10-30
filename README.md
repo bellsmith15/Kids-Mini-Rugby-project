@@ -13,7 +13,7 @@ The website will have four navigation headings, with the About Us being embedded
 3. Gallery page
 4. Sign Up page
 
-I have chosen the color schemes of red, green and an off-white for the background.  These colors compliment the images that have been used on the website. I produced wireframes on Balsamiq as an example of the pages I was considering doing. (see links below)  After my call with my mentor, they suggested that I put the "About Us" information into the home page and not on another page and instead create a link within the home page to the nav bar, which will create three pages to the site, you can see the change in the versions of the homepage.
+I have chosen the color schemes of red, green and an off-white for the background.  These colors compliment the images that have been used on the website. I produced wireframes on Balsamiq as an example of the pages I was considering doing. (see links below)  After my call with my mentor, they suggested that I put the "About Us" information into the home page and not on another page and instead create a link within the home page to the nav bar, which will create three pages to the site, you can see the layout changes in the versions of the homepage.
 
 ![Home](/assets/readme-files/wireframes/homepage-v1.png)
 ![Home](/assets/readme-files/wireframes/homepage-v2.png)
@@ -78,17 +78,15 @@ After consideration and discussion with my mentor I chose to create Homepage-v2 
 - Font Awesome - was used to source all icon images to be used in CSS.
 - Google Fonts - was used to source all fonts.
 - GitHub Pages - was used to deploy the website.
-- Webdev - was used to measure the 
+- Webdev - was used to measure the performance of the site.
 
 ## Testing 
 
-- I 
+- For part of the testing I loaded the sites link into the "am I responsive" checker. This confirmed that the code was working in Desktop, Laptop, Tablet and mobile.  I could check that the images loaded correcly in the gallery and were responsive and that the video section played.  The links across the site landed where they should. See screen shot of the result.
 
 ![Responsiveness](/assets/readme-files/screenshots/am-i-responsive-test.png)
 
-
-
-- I used the site web.dev to measure the websites performance and made improvements to HTML and CSS that improved the Accessibility ( https://web.dev/measure/ )
+- I then used the site web.dev to measure the websites performance and made improvements to HTML and CSS that improved the Accessibility ( https://web.dev/measure/ )  With some improvements to the links and contrast in the color scheme and heading color I was able to increase the score from 91% to 97%.  I then looked at improving the best practices with the images.  I proceeded to resize the images that were sourced online and added them to the images files as a 1:1 ratio , however I found that the file images that I had created were not sufficient enough make a better score.  I need to work on what the best size images are to work with. The report identified my attempts.  My mentor advised that some of the indicators in the report are not yet covered this far in the course and that they would be cover in the next sections.  The SEO identified the tap targets sizes need to be increased for the social media links. 
 
 ![Webdev measure of Accessibility](/assets/readme-files/validation-testing/webdev-measure-accessibility-report.png)
 
@@ -97,6 +95,10 @@ After consideration and discussion with my mentor I chose to create Homepage-v2 
 - Google Chrome
 - Microsoft Edge
 - Mozilla Firefox
+
+Google Chrome opened the website will working images and videos. Microsoft edge opened the video but took longer than G-chrome.  Some of the text in the description section was not correctly in place and I worked to debug this in the CSS code.  Mozilla Firefox worked without any errors the images were styled correctly and the video played faster than Microsoft edge did.
+
+All three browsers social media links worked correctly and opened a new browser for the User to view the account wihin that media.
 
 ## Tested Responsiveness on the following sizes:
 
@@ -109,13 +111,15 @@ After consideration and discussion with my mentor I chose to create Homepage-v2 
   - Mobile @ 320px
 
 
+## Bugs
+
 - Bugs fixed during development through Media queries and CSS styling when testing in browsers or on inspect.  A Bug found with the images section on the home page on reviewing the web.dev was resolved with CSS container to resize the images.
 
 - There is a known bug in the Form section. In this instance the Form is not posted to a link and has been omitted as advised by my mentor and to state this was an intended action in the readme.md document.  If a user  woudl try and complete their form it would not be sent and a 501 error occurs. 
 
    -  https://formdump.codeinstitute.net/" IS NOT POSTED IN THIS PROJECT get 501 error - is noted on line 44 of the signup.html.
 
-- When testing the responsiveness the navigation items appeared in the reverse order when reduced to a mobile size.  I corrected this by researching on stack over flow on how to reverse order float elements, which resolved the bug.
+- When testing the responsiveness the navigation items they appeared in the reverse order when reduced to a mobile size.  I corrected this by researching on stack over flow on how to reverse order float elements, which resolved the bug.
 
 - In the browsers I tested that all the links worked in the pages and that the video content played ok. The website looks good on desktop and laptop and lower sizes have the images tiled on top of each other when the responsiveness is reduced. On a laptop browser view where the welcome note was in the wrong position for a desktop, this was debugged.
 
@@ -128,11 +132,13 @@ After consideration and discussion with my mentor I chose to create Homepage-v2 
 - I have spent some time trying to imprrove upon the performance score and managed to increase this by 6%. For future features I would like to improve on this and understand the best areas this could be achieved.
 
 
+
 ## Validator Testing 
+
 
 ### HTML
 
- - No errors were found when passing through the W3C HTML validation on either the home, gallery or signup pages. There were some warnings to consider using headings as this is normal to accept as it is dependant on the struscture of the websites layout.  I did change the warnings where there were sections to div elements but this made no difference and on researching this message it is quite normal to get.
+ - No errors were found when passing through the W3C HTML validation on either the home, gallery or signup pages. There were some warnings to consider using headings as this is normal to accept as it is dependant on the structure of the websites layout.  I did change the warnings where there were sections to div elements but this made no difference and on researching this message it is quite normal to get this message.
 
 - ![HTML homepage](/assets/readme-files/validation-testing/w3c-html-validation-service-homepage.png)
 
@@ -197,13 +203,18 @@ The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-
 ### Content 
 
 - The icons in the pages and footer were taken from [Font Awesome](https://fontawesome.com/)
-- The favicon for the page was made on [Formito.com](https://formito.com/tools/favicon)
-- The Flaticon site was used to replace the Formito favicon as it failed the html validation [Flaticon](https://www.flaticon.com/free-icons/rugby-ball) 
+- The favicon for the page was made on [Formito.com](https://formito.com/tools/favicon), however the Flaticon site was used to replace the Formito favicon as it failed the html validation [Flaticon](https://www.flaticon.com/free-icons/rugby-ball) 
 
 
 ### Media
 
 - The photos used on the home and sign up page are from Pexel and Videvo
 - The images used for the gallery page were taken from Pexel
-
 - The images and videos used for the web pages gallery were taken from [Pexel](https://www.pexels.com/search/rugby/) and [Videvo](https://www.videvo.net/search/rugby/)
+- I researched other rugby sites including 
+- England;
+    - https://www.englandrugby.com/england
+- Ireland;
+    - https://www.irishrugby.ie/
+- All blacks;
+    - https://www.allblacks.com/

@@ -55,10 +55,12 @@ h2 {
     text-transform: uppercase;
     color: rgb(177, 23, 49);
     padding-bottom: 15px;
+    text-shadow: 1px 1px black;
 }
 
 h3 {
     color: white;
+    text-shadow: 1px 1px black;
 }
 
 #logo {
@@ -141,7 +143,7 @@ h3 {
 }
 
 #signup-link {
-    color: rgb(27, 75, 27);
+    color: whitesmoke;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -219,6 +221,7 @@ h3 {
 
 /* About Us large image row */
 
+/* W3 schools for tips on responsive images */
 
 .aboutus-large-photos-container img {
     height: auto;
