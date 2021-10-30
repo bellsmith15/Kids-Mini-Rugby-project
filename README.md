@@ -13,9 +13,7 @@ The website will have four navigation headings, with the About Us being embedded
 3. Gallery page
 4. Sign Up page
 
-![All Wireframes in pdf](https://github.com/bellsmith15/Kids-Mini-Rugby-project/blob/main/assets/readme-files/Kids-Mini-Rugy-WireFrames.pdf)
-
-I have chosen the color schemes of red, green and an off-white for the background.  These colors compliment the images that have been used on the website. I produced wireframes on Balsamiq as an example of the pages I was considering doing. (see links below)  After my call with my mentor, they suggested that I put the "About Us" information into the home page and not on another page and instead create a link within the home page to the nav bar, which will create three pages to the site.
+I have chosen the color schemes of red, green and an off-white for the background.  These colors compliment the images that have been used on the website. I produced wireframes on Balsamiq as an example of the pages I was considering doing. (see links below)  After my call with my mentor, they suggested that I put the "About Us" information into the home page and not on another page and instead create a link within the home page to the nav bar, which will create three pages to the site, you can see the change in the versions of the homepage.
 
 ![Home](/assets/readme-files/wireframes/homepage-v1.png)
 ![Home](/assets/readme-files/wireframes/homepage-v2.png)
@@ -80,29 +78,35 @@ After consideration and discussion with my mentor I chose to create Homepage-v2 
 - Font Awesome - was used to source all icon images to be used in CSS.
 - Google Fonts - was used to source all fonts.
 - GitHub Pages - was used to deploy the website.
-- https://web.dev/measure/
+- Webdev - was used to measure the 
 
 ## Testing 
 
+- I 
+
 ![Responsiveness](/assets/readme-files/screenshots/am-i-responsive-test.png)
+
+
 
 - I used the site web.dev to measure the websites performance and made improvements to HTML and CSS that improved the Accessibility ( https://web.dev/measure/ )
 
-Insert screen shot of it here
+![Webdev measure of Accessibility](/assets/readme-files/validation-testing/webdev-measure-accessibility-report.png)
 
 ## Tested Browsers:
 
 - Google Chrome
 - Microsoft Edge
 - Mozilla Firefox
-- Safari
 
-## Tested Responsiveness on:
-- Laptop @ 1024px
-- Tablet @ 768px
-- Mobile @ 425px
-- Mobile @ 375px
-- Mobile @ 320px
+## Tested Responsiveness on the following sizes:
+
+- Carried out;
+
+  - Laptop @ 1024px
+  - Tablet @ 768px
+  - Mobile @ 425px
+  - Mobile @ 375px
+  - Mobile @ 320px
 
 
 - Bugs fixed during development through Media queries and CSS styling when testing in browsers or on inspect.  A Bug found with the images section on the home page on reviewing the web.dev was resolved with CSS container to resize the images.
@@ -113,34 +117,40 @@ Insert screen shot of it here
 
 - When testing the responsiveness the navigation items appeared in the reverse order when reduced to a mobile size.  I corrected this by researching on stack over flow on how to reverse order float elements, which resolved the bug.
 
-- In the browsers I tested that all the links worked in the pages and that the video content played ok. The website looks good on desktop and laptop and lower sizes have the images tiled on top of each other when the responsiveness is reduced. On ** browser welcome note is in the wrong position for a desktop
+- In the browsers I tested that all the links worked in the pages and that the video content played ok. The website looks good on desktop and laptop and lower sizes have the images tiled on top of each other when the responsiveness is reduced. On a laptop browser view where the welcome note was in the wrong position for a desktop, this was debugged.
 
 - Some of the confidence and values paragraphs were coming out in the incorrect places, after checking the responsiveness in each device this was resolved by entering the correct height and font values.
 
-- Another bug was found on the signup form. The join for label to textarea id was not matching after an edit and was reverted back to clear the error on the html validator check.
+- Another bug was found on the signup form. The join for label to textarea id was not matching after an edit of an id element was reverted back it cleared the error on the html validator check.
 
-- Bug founs on the textarea code of the form resolved after finding a solution on W3 schools for <textarea> tag.
+- Also a bug found on the textarea code of the form resolved after finding a solution on W3 schools for textarea tag.
+
+- I have spent some time trying to imprrove upon the performance score and managed to increase this by 6%. For future features I would like to improve on this and understand the best areas this could be achieved.
 
 
-### Validator Testing 
+## Validator Testing 
 
-- HTML
- - No errors were found when passing through the W3C HTML validation on either the home, gallery or signup pages 
+### HTML
 
-  - [W3C validation - Home page](/assets/readme-files/validation/W3C-HTML-Validation-Service-homepage.png)
+ - No errors were found when passing through the W3C HTML validation on either the home, gallery or signup pages. There were some warnings to consider using headings as this is normal to accept as it is dependant on the struscture of the websites layout.  I did change the warnings where there were sections to div elements but this made no difference and on researching this message it is quite normal to get.
 
-  - [W3C validation - Gallery page](/assets/readme-files/validation/W3C-HTML-Validation-Service-gallery.png)
+- ![HTML homepage](/assets/readme-files/validation-testing/w3c-html-validation-service-homepage.png)
 
-  - [W3C validation - Sign Up page](/assets/readme-files/validation/W3C-HTML-Validation-Service-signup.png)
+- ![HTML gallery](/assets/readme-files/validation-testing/w3c-html-validation-service-gallery.png)
 
-- CSS
+- ![HTML signup](/assets/readme-files/validation-testing/w3c-html-validation-service-signup.png)
+
+
+
+### CSS
+
   - No errors were found when passing through the W3C CSS validation on either the home, gallery or signup pages 
   
-- ![CSS homepage](/assets/readme-files/validation/W3C-CSS-Validation-Service-homepage.png)
+- ![CSS homepage](/assets/readme-files/validation-testing/w3c-css-validation-service-homepage.png)
 
-- ![CSS gallery](/assets/readme-files/validation/W3C-CSS-Validation-Service-gallery.png)
+- ![CSS gallery](/assets/readme-files/validation-testing/w3c-css-validation-service-gallery.png)
 
-- ![CSS signup](/assets/readme-files/validation/W3C-CSS-Validation-Service-signup.png)
+- ![CSS signup](/assets/readme-files/validation-testing/w3c-css-validation-service-signup.png)
 
 
 ## Deployment
