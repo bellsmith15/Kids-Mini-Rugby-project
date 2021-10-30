@@ -211,10 +211,12 @@ The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-
 - The photos used on the home and sign up page are from Pexel and Videvo
 - The images used for the gallery page were taken from Pexel
 - The images and videos used for the web pages gallery were taken from [Pexel](https://www.pexels.com/search/rugby/) and [Videvo](https://www.videvo.net/search/rugby/)
-- I researched other rugby sites including 
+- I researched other rugby sites including the england, ireland and all blacks sites.
 - England;
     - https://www.englandrugby.com/england
 - Ireland;
     - https://www.irishrugby.ie/
 - All blacks;
     - https://www.allblacks.com/
+
+
