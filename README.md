@@ -95,13 +95,18 @@ Insert screen shot of it here
 - Google Chrome
 - Microsoft Edge
 - Mozilla Firefox
-- Safari - ipad mini
+- Safari
 
 - Desktop
 - Laptop @ 1024px
 - Mobile @ 375px
+
+- Mobile @ 320px
+- Mobile @ 425px
+
 - iPhone 6/7/8
-- iPad
+- iPad @ 768px
+
 
 - Tablet @ 768px
 - Laptop @ 1024px
@@ -129,7 +134,7 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official 
+ - No errors were found when passing through the W3C HTML validation on either the home, gallery or signup pages 
   <!-- - [W3C validato - Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   - [W3C validato - Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   - [W3C validato - Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) -->

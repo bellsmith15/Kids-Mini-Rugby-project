@@ -49,9 +49,6 @@ header {
     ;
 }
 
-/* #logo {
-    float: left;
-} */
 
 h1,
 h2 {
@@ -74,7 +71,6 @@ h3 {
     float: left;
     font-size: 20px;
     color: rgb(27, 75, 27);
-    /* padding-left: 30px; */
 }
 
 /* navigation links - reference to Love Running project */
@@ -124,8 +120,6 @@ h3 {
     height: 100vh;
     width: 100%;
     clear: both;
-    /* this is error on CCSS validator -201px review and take out */
-    /* min-height: calc(100vh -201px); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,12 +228,42 @@ h3 {
     font: bold;
 }
 
+/* About Us large image row */
+
+.large-column {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.large-row::after {
+    content: "";
+    clear: both;
+    display: table;
+    /* display:table-row-group; */
+}
+
+@media screen and (max-width: 768px) {
+    .large-column {
+        width: 100%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .large-row {
+        text-align: center;
+    }
+}
+
+
+
 /* descriptions */
 
 #who {
     padding: 40px;
     width: 33%;
-    height: 35vh;
+    height: 40vh;
     float: left;
     /* background-color: red */
     background-color: rgb(27, 75, 27);
@@ -249,7 +273,7 @@ h3 {
 #what {
     padding: 40px;
     width: 33%;
-    height: 35vh;
+    height: 40vh;
     margin: 0 auto;
     /* background-color: blue */
     background-color: rgb(27, 75, 27);
@@ -259,7 +283,7 @@ h3 {
 #coach {
     padding: 40px;
     width: 33%;
-    height: 35vh;
+    height: 40vh;
     float: right;
     /* background-color: green */
     background-color: rgb(27, 75, 27);
@@ -276,13 +300,16 @@ h3 {
 }
 
 
-.desc-container h2 {
+/* .desc-container h2 {
     padding: 5px;
-}
+    font-size: 18px;
+} */
 
 .border-style {
     border-radius: 100px;
 }
+
+
 
 
 /* Video */
@@ -325,61 +352,13 @@ video {
 
 
 
-
-
-
-
-
-/* hero image and cover text - same as running and then added link to sign up       - as per Love Running project*/
-
-/* #hero-image {
-    height: 3500px;
-    width: 100%;
-    position: absolute;
-    background: url('../images/two-boys-rugby.jpg') no-repeat center center;
-}
-
-#cover-text,
-#cover-text h2 {
-    color: white;
-    text-align: center;
-}
-
-#cover-text {
-    font-size: 200%;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
-    height: 110px;
-    padding: 20px 20px 30px;
-    background-color: rgb(177, 23, 49);
-    top: 4000px;
-    left: 3400px;
-    position: absolute;
-    opacity: 80%;
-}
-
-#cover-link {
-    color: rgb(27, 75, 27);
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-#hero-outer {
-    height: 4000px;
-    width: 100%;
-    overflow: hidden;
-} */
-
-
-
-
 /* About Us text */
 
 #about-us {
     text-align: center;
     font-size: 35px;
     width: 100%;
-    top: 105px;
+    /* top: 105px; */
     color: whitesmoke;
     background-color: rgb(177, 23, 49);
     padding: 10px 50px;
@@ -464,7 +443,7 @@ td {
 #Who-are-we {
     height: 800px;
     padding-top: 50px;
-    width: 33%;
+    width: 33.33%;
     float: left;
     margin-left: 100px;
     font-size: 380%;
@@ -473,7 +452,7 @@ td {
 #What-do-we-do {
     height: 800px;
     padding-top: 75px;
-    width: 33%;
+    width: 33.33%;
     float: left;
     margin-left: 100px;
     font-size: 380%;
@@ -482,7 +461,7 @@ td {
 #Coaching {
     height: 800px;
     padding-top: 125px;
-    width: 33%;
+    width: 33.33%;
     float: left;
     margin-left: 100px;
     font-size: 380%;
@@ -607,85 +586,100 @@ footer {
 
 /* Home Media */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1440px) {
     #about-confidence {
+        top: 54vh;
         left: 40px;
-        font-size: 20px;
+        font-size: 30px;
         width: 25%;
         position: absolute;
         margin-left: 20px;
     }
 
     #about-values {
-        top: 55vh;
-        font-size: 20px;
+        top: 50vh;
+        font-size: 30px;
         width: 25%;
         position: absolute;
         margin-left: 20px;
     }
 
     #about-us {
-        top: 180px;
+        top: 10vh;
     }
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     #about-values {
         right: 30px;
         width: 25%
     }
 
+    #about-confidence {
+        top: 66vh;
+        font-size: 24px;
+    }
+
+    #about-values {
+        top: 62vh;
+        font-size: 24px;
+    }
+
     #who {
-        height: 40vh;
+        height: 55vh;
     }
 
     #coach {
-        height: 40vh;
+        height: 55vh;
     }
 
     #what {
-        height: 40vh;
+        height: 55vh;
+    }
+
+    #about-us {
+        top: 185px;
     }
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     #about-confidence {
-        top: 75vh;
-        font-size: 18px;
+        top: 80vh;
+        font-size: 20px;
         width: 22%;
     }
 
     #about-values {
-        top: 73vh;
-        font-size: 18px;
+        top: 45vh;
+        font-size: 20px;
         width: 25%
     }
 
     #about-us {
-        top: 220px;
+        top: 250px;
         font-size: 25px;
     }
 
     #who {
-        height: 45vh;
+        height: 65vh;
         padding: 20px;
     }
 
     #coach {
-        height: 45vh;
+        height: 65vh;
         padding: 20px;
     }
 
     #what {
-        height: 45vh;
+        height: 65vh;
         padding: 20px;
     }
 }
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     #about-confidence {
         top: 80vh;
         font-size: 16px;
@@ -715,9 +709,9 @@ footer {
         height: 50vh;
         padding: 10px;
     }
-}
+} */
 
-
+/* 
 @media screen and (max-width: 500px) {
     #about-confidence {
         top: 80vh;
@@ -747,28 +741,28 @@ footer {
         padding: 5px;
         font-size: 13px;
     }
-}
+} */
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 425px) {
     #about-us {
         font-size: 15px;
-        top: 300px;
+        top: 310px;
     }
 
     #who {
-        height: 45vh;
+        height: 60vh;
         padding: 5px;
         font-size: 13px;
     }
 
     #coach {
-        height: 45vh;
+        height: 60vh;
         padding: 5px;
         font-size: 13px;
     }
 
     #what {
-        height: 45vh;
+        height: 60vh;
         padding: 5px;
         font-size: 13px;
     }
@@ -783,6 +777,14 @@ footer {
         display: inline;
     }
 }
+
+
+/* @media screen and (max-width: 425px) {
+.desc-h2 {
+    font-size: 20px;
+
+} */
+
 
 @media screen and (max-width: 375px) {
     #about-us {
@@ -791,19 +793,19 @@ footer {
     }
 
     #who {
-        height: 85vh;
+        height: 70vh;
         padding: 5px;
         font-size: 13px;
     }
 
     #coach {
-        height: 85vh;
+        height: 70vh;
         padding: 5px;
         font-size: 13px;
     }
 
     #what {
-        height: 85vh;
+        height: 70vh;
         padding: 5px;
         font-size: 13px;
     }
@@ -820,27 +822,68 @@ footer {
 }
 
 
+@media screen and (max-width: 320px) {
+    #about-us {
+        font-size: 15px;
+        top: 350px;
+    }
+
+    #who {
+        height: 60vh;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    #coach {
+        height: 60vh;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    #what {
+        height: 60vh;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .desc-h2 {
+        font-size: 15px;
+
+    }
+
+    .small-container {
+        text-align: center;
+        display: inline;
+    }
+}
 
 
 
 
 
 /* Video Media */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1440px) {
     video {
-        width: 850px;
-        height: 1000px;
+        width: 1400px;
+        height: 1200px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     video {
-        width: 750px;
-        height: 800px;
+        width: 1000px;
+        height: 900px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    video {
+        width: 760px;
+        height: 700px;
+    }
+}
+
+/* @media screen and (max-width: 600px) {
     video {
         width: 599px;
         height: 650px;
@@ -852,11 +895,11 @@ footer {
         width: 495px;
         height: 500px;
     }
-}
+} */
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 425px) {
     video {
-        width: 410px;
+        width: 420px;
         height: 400px;
     }
 }
@@ -868,18 +911,26 @@ footer {
     }
 }
 
+@media screen and (max-width: 320px) {
+    video {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+
 
 
 /* Gallery Media */
 /* Gallery photos tablet */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     #photos {
         column-count: 3;
     }
 }
 
 /* Gallery photos mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
     #photos {
         column-count: 2;
     }
