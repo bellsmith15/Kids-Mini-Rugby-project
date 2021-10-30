@@ -119,6 +119,8 @@ Insert screen shot of it here
 
 - Another bug was found on the signup form. The join for label to textarea id was not matching after an edit and was reverted back to clear the error on the html validator check.
 
+- Bug founs on the textarea code of the form resolved after finding a solution on W3 schools for <textarea> tag.
+
 
 ### Validator Testing 
 
@@ -162,6 +164,8 @@ The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-
 - Font Awesome - was used to source all icon images to be used in CSS.
 - Pexel - was used to source all video and images.
 - Formito.com - was used to make a free favicon.
+- Flaticon - was used for a free favicon.
+
 
 
 ### Support
@@ -180,7 +184,8 @@ The live link can be found here - https://bellsmith15.github.io/Kids-Mini-Rugby-
 ### Content 
 
 - The icons in the pages and footer were taken from [Font Awesome](https://fontawesome.com/)
-- The favicon for the page was made on [Formito](https://formito.com/tools/favicon)
+- The favicon for the page was made on [F](https://www.flaticon.com/free-icons/rugby-ball)
+- The Flaticon site was used to replace the Formito favicon as it failed the html validation
 
 
 ### Media

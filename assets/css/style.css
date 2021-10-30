@@ -857,7 +857,7 @@ footer {
 
 input[type=text],
 input[type=email],
-textarea[id="info"] {
+textarea[id="addinfo"] {
     width: 100%;
     padding: 12px;
     border: 8px solid #fafafa;
@@ -875,7 +875,7 @@ textarea[id="info"] {
 
 input[type=text],
 input[type=email],
-textarea[id="info"] {
+textarea[id="addinfo"] {
     border-color: #154b27;
 }
 
